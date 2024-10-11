@@ -1,0 +1,23 @@
+From this image, return json that has field list is the list of information (hand written text) that each element has field name is the name of player, 
+score is the list of all scores of that player in format like this. 
+
+{
+  "golf": [
+    {
+      "name": "",
+      "score": []
+    },
+    {
+      "name": "",
+      "score": []
+    },
+    {
+      "name": "",
+      "score": []
+    },
+    {
+      "name": "",
+      "score": []
+    }
+  ]
+}

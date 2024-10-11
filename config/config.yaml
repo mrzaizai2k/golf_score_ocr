@@ -5,5 +5,5 @@ generation_config:
   top_k: 64
   max_output_tokens: 8192
   response_mime_type: "application/json"
-system_instruction: "You are a helpful assistant that responds in JSON format with the invoice information in English or Vietnamese. Don't add any annotations there. Remember to close any bracket."
-question: "From this image, return json that has field list is the list of information that each element has field name is the name of player, score is the list of score of that player"
+system_instruction_path:  config/system_instruction.txt
+question_path: config/question.txt
