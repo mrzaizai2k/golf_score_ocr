@@ -1,6 +1,7 @@
 From this image, return json that has field list is the list of information (hand written text) that each element has field name is the name of player, 
-score is the list of all scores of that player in format like this. 
-
+score is the list of all scores of that player in format like this. The golf score is calculated like this, they hasve 9 front and 9 back scores. 
+Remember that the each score would be from 0-9 but after 9 digits, which mean the 10th element is the sum of the last 9 scores, and the 20th element will be the sum of hole 11 to 19. 
+for example the score will be ["0", "1", "2","1", "3", "2", "0", "0","1", "11"]
 {
   "golf": [
     {
