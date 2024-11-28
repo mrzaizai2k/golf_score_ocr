@@ -7,3 +7,6 @@ generation_config:
   response_mime_type: "application/json"
 system_instruction_path:  config/system_instruction.txt
 question_path: config/question.txt
+
+ocr:
+  resize_size: 1080
