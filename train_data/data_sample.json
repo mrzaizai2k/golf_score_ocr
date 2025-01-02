@@ -1,0 +1,64 @@
+
+[
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that responds in JSON format with the golf score card information. Do not add any annotations there. Remember to close any bracket."
+            },
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "train_data/scorecard/tan_son_nhat/5.jpeg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "From this image, return json that has field list is the list of information (hand written text) that each element has field name is the name of player, score is the list of all scores of that player in format like this. The golf score is calculated like this, they hasve 9 front and 9 back scores. Remember that the each score would be from 0-9 but after 9 digits, which mean the 10th element is the sum of the last 9 scores, and the 20th element will be the sum of hole 11 to 19. for example the score will be [0, 1, 2, 1, 3, 2, 0, 0, 1, 11][{\"golf\": [{\"name\": \"\", \"score\": []}, {\"name\": \"\", \"score\": []}]"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "```json\n[\n    {\n        \"golf\": [\n            {\"name\": \"T Anh\", \"score\": [2, 3, 1, 1, 2, 1, 1, 0, 3, 14]},\n            {\"name\": \"Tấn\", \"score\": [1, 0, 1, 1, 0, 1, 2, 2, 2, 10]},\n            {\"name\": \"A Phúc\", \"score\": [1, 0, 2, 1, 1, 2, 2, 2, 2, 13]},\n            {\"name\": \"A Tuấn\", \"score\": [2, 0, 1, 0, 0, 4, 3, 1, 4, 15]}\n        ]\n    }\n]\n```"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that responds in JSON format with the golf score card information. Do not add any annotations there. Remember to close any bracket."
+            },
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "train_data/scorecard/tan_son_nhat/10.jpeg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "From this image, return json that has field list is the list of information (hand written text) that each element has field name is the name of player, score is the list of all scores of that player in format like this. The golf score is calculated like this, they hasve 9 front and 9 back scores. Remember that the each score would be from 0-9 but after 9 digits, which mean the 10th element is the sum of the last 9 scores, and the 20th element will be the sum of hole 11 to 19. for example the score will be [0, 1, 2, 1, 3, 2, 0, 0, 1, 11][{\"golf\": [{\"name\": \"\", \"score\": []}, {\"name\": \"\", \"score\": []}]"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "```json\n[\n    {\n        \"golf\": [\n            {\"name\": \"C Ngân\", \"score\": [2, 4, 3, 2, 2, 1, 1, 1, 2, 18]},\n            {\"name\": \"C Ngân\", \"score\": [2, 2, 1, 4, 0, 2, 2, 2, 2, 17]}\n        ]\n    }\n]\n```"
+                    }
+                ]
+            }            
+        ]
+    }
+]
+

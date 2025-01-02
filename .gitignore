@@ -2,4 +2,5 @@
 images/
 .env
 *.pyc
-train_data/
+*.jpg
+*.JPG
