@@ -14,7 +14,7 @@
                     },
                     {
                         "type": "text",
-                        "text": "From this image, return json that has field list is the list of information (hand written text) that each element has field name is the name of player, score is the list of all scores of that player in format like this. The golf score is calculated like this, they hasve 9 front and 9 back scores. Remember that the each score would be from 0-9 but after 9 digits, which mean the 10th element is the sum of the last 9 scores, and the 20th element will be the sum of hole 11 to 19. for example the score will be [0, 1, 2, 1, 3, 2, 0, 0, 1, 11][{\"golf\": [{\"name\": \"\", \"score\": []}, {\"name\": \"\", \"score\": []}]These are examples: ```json\n[\n    {\n        \"golf\": [\n            {\"name\": \"T Anh\", \"score\": [2, 3, 1, 1, 2, 1, 1, 0, 3, 14]},\n            {\"name\": \"Tấn\", \"score\": [1, 0, 1, 1, 0, 1, 2, 2, 2, 10]},\n            {\"name\": \"A Phúc\", \"score\": [1, 0, 2, 1, 1, 2, 2, 2, 2, 13]},\n            {\"name\": \"A Tuấn\", \"score\": [2, 0, 1, 0, 0, 4, 3, 1, 4, 15]}\n        ]\n    }\n]\n```or ```json\n[\n    {\n        \"golf\": [\n            {\"name\": \"C Ngân\", \"score\": [2, 4, 3, 2, 2, 1, 1, 1, 2, 18]},\n            {\"name\": \"C Ngân\", \"score\": [2, 2, 1, 4, 0, 2, 2, 2, 2, 17]}\n        ]\n    }\n]\n```"
+                        "text": "From this image, return json that has field list is the list of information (hand written text) that each element has field name is the name of player, score is the list of all scores of that player in format like this. The golf score is calculated like this, they hasve 9 front and 9 back scores. Remember that the each score would be from 0-9 but after 9 digits, which mean the 10th element is the sum of the last 9 scores, and the 20th element will be the sum of hole 11 to 19. for example the score will be [0, 1, 2, 1, 3, 2, 0, 0, 1, 11][{\"golf\": [{\"name\": \"\", \"score\": []}, {\"name\": \"\", \"score\": []}]"
                     }
                 ]
             },
@@ -23,10 +23,10 @@
                 "content": [
                     {
                         "type": "text",
-                        "text": "```json\n{\"golf\": [{\"name\": \"A Quay\", \"score\": [\"1\", \"1\", \"3\", \"1\", \"1\", \"2\", \"2\", \"2\", \"0\", \"15\"]}, {\"name\": \"A Hiap\", \"score\": [\"2\", \"1\", \"1\", \"2\", \"1\", \"1\", \"1\", \"0\", \"1\", \"10\"]}, {\"name\": \"A Hieu\", \"score\": [\"3\", \"2\", \"0\", \"2\", \"2\", \"1\", \"2\", \"1\", \"0\", \"13\"]}, {\"name\": \"A Dung\", \"score\": [\"0\", \"1\", \"1\", \"4\", \"2\", \"2\", \"0\", \"0\", \"0\", \"10\"]}]}\n```"
+                        "text": "```json\n[\n    {\n        \"golf\": [\n            {\"name\": \"A Quang\", \"score\": [1, 1, 3, 1, 1, 2, 2, 2, 0]},\n            {\"name\": \"A Hiệp\", \"score\": [2, 1, 1, 2, 1, 1, 1, 0, 1]},\n            {\"name\": \"A Hiếu\", \"score\": [3, 2, 0, 2, 2, -1, 1, 2, 1]},\n            {\"name\": \"A Dũng\", \"score\": [0, 1, 1, 1, 4, 2, 2, 0, 0]}\n        ]\n    }\n]\n```"
                     }
                 ]
-            }
+            }            
         ]
     },
     {
@@ -44,7 +44,7 @@
                     },
                     {
                         "type": "text",
-                        "text": "From this image, return json that has field list is the list of information (hand written text) that each element has field name is the name of player, score is the list of all scores of that player in format like this. The golf score is calculated like this, they hasve 9 front and 9 back scores. Remember that the each score would be from 0-9 but after 9 digits, which mean the 10th element is the sum of the last 9 scores, and the 20th element will be the sum of hole 11 to 19. for example the score will be [0, 1, 2, 1, 3, 2, 0, 0, 1, 11][{\"golf\": [{\"name\": \"\", \"score\": []}, {\"name\": \"\", \"score\": []}]These are examples: ```json\n[\n    {\n        \"golf\": [\n            {\"name\": \"T Anh\", \"score\": [2, 3, 1, 1, 2, 1, 1, 0, 3, 14]},\n            {\"name\": \"Tấn\", \"score\": [1, 0, 1, 1, 0, 1, 2, 2, 2, 10]},\n            {\"name\": \"A Phúc\", \"score\": [1, 0, 2, 1, 1, 2, 2, 2, 2, 13]},\n            {\"name\": \"A Tuấn\", \"score\": [2, 0, 1, 0, 0, 4, 3, 1, 4, 15]}\n        ]\n    }\n]\n```or ```json\n[\n    {\n        \"golf\": [\n            {\"name\": \"C Ngân\", \"score\": [2, 4, 3, 2, 2, 1, 1, 1, 2, 18]},\n            {\"name\": \"C Ngân\", \"score\": [2, 2, 1, 4, 0, 2, 2, 2, 2, 17]}\n        ]\n    }\n]\n```"
+                        "text": "From this image, return json that has field list is the list of information (hand written text) that each element has field name is the name of player, score is the list of all scores of that player in format like this. The golf score is calculated like this, they hasve 9 front and 9 back scores. Remember that the each score would be from 0-9 but after 9 digits, which mean the 10th element is the sum of the last 9 scores, and the 20th element will be the sum of hole 11 to 19. for example the score will be [0, 1, 2, 1, 3, 2, 0, 0, 1, 11][{\"golf\": [{\"name\": \"\", \"score\": []}, {\"name\": \"\", \"score\": []}]"
                     }
                 ]
             },
@@ -53,8 +53,188 @@
                 "content": [
                     {
                         "type": "text",
-                        "text": "```json\n[{\"golf\": [{\"name\": \"A.Luong\", \"score\": [\"1\", \"0\", \"0\", \"4\", \"1\", \"0\", \"0\", \"1\", \"1\", \"8\"]}, {\"name\": \"A.Thanh\", \"score\": [\"4\", \"1\", \"0\", \"0\", \"2\", \"1\", \"1\", \"0\", \"0\", \"7\"]}, {\"name\": \"A.Hien\", \"score\": [\"4\", \"1\", \"0\", \"0\", \"2\", \"2\", \"1\", \"1\", \"2\", \"13\"]}]}]\n```"
+                        "text": "```json\n[\n    {\n        \"golf\": [\n            {\n                \"name\": \"A Quang\", \n                \"score\": [1, 0, 0, -1, 1, 0, 0, 1, 1, 3, 1, 1, 1, 2, 1, 1, 3, 3, 1, 14, 17]\n            },\n            {\n                \"name\": \"A Thành\", \n                \"score\": [4, 1, 0, 0, 2, 1, 0, 0, 0, 7, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2, 9]\n            },\n            {\n                \"name\": \"A Tuấn\", \n                \"score\": [4, 1, 0, 0, 2, 2, 1, 1, 2, 13, 1, 0, 0, 1, 2, 1, 3, 2, 0, 10, 23]\n            }\n        ]\n    }\n]\n```"
                     }
+                ]
+            }            
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that responds in JSON format with the golf score card information. Do not add any annotations there. Remember to close any bracket."
+            },
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "train_data/score_card_2/IMG_9377.JPG"
+                    },
+                    {
+                        "type": "text",
+                        "text": "From this image, return json that has field list is the list of information (hand written text) that each element has field name is the name of player, score is the list of all scores of that player in format like this. The golf score is calculated like this, they hasve 9 front and 9 back scores. Remember that the each score would be from 0-9 but after 9 digits, which mean the 10th element is the sum of the last 9 scores, and the 20th element will be the sum of hole 11 to 19. for example the score will be [0, 1, 2, 1, 3, 2, 0, 0, 1, 11][{\"golf\": [{\"name\": \"\", \"score\": []}, {\"name\": \"\", \"score\": []}]"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "```json\n[\n    {\n        \"golf\": [\n            {\"name\": \"Vũ Thành Lê 01\", \"score\": [4, 6, 5, 4, 6, 4, 5, 5, 7, 46, 5, 7, 5, 5, 3, 6, 4, 3, 4, 42]},\n            {\"name\": \"Mai Trung Thành 55\", \"score\": [6, 8, 5, 4, 5, 8, 6, 4, 6, 52, 5, 8, 5, 6, 4, 7, 5, 3, 6, 49]},\n            {\"name\": \"Lê Trùng Thành 38\", \"score\": [5, 8, 5, 6, 5, 7, 6, 3, 7, 53, 6, 6, 4, 6, 4, 8, 5, 4, 6, 49]}\n        ]\n    }\n]\n```"
+                    }
+                ]
+            }            
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that responds in JSON format with the golf score card information. Do not add any annotations there. Remember to close any bracket."
+            },
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "train_data/score_card_2/IMG_9381.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "From this image, return json that has field list is the list of information (hand written text) that each element has field name is the name of player, score is the list of all scores of that player in format like this. The golf score is calculated like this, they hasve 9 front and 9 back scores. Remember that the each score would be from 0-9 but after 9 digits, which mean the 10th element is the sum of the last 9 scores, and the 20th element will be the sum of hole 11 to 19. for example the score will be [0, 1, 2, 1, 3, 2, 0, 0, 1, 11][{\"golf\": [{\"name\": \"\", \"score\": []}, {\"name\": \"\", \"score\": []}]"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "```json\n[\n    {\n        \"golf\": [\n            {\"name\": \"A Quang\", \"score\": [1, 0, 5, 2, 1, 1, 0, 0, 3, 13]},\n            {\"name\": \"A Hiệp\", \"score\": [1, 1, 1, 0, 0, 1, 0, 0, 0, 4]},\n            {\"name\": \"A Nam\", \"score\": [1, 3, 1, 1, 0, 2, 2, 3, 3, 16]},\n            {\"name\": \"A Dũng\", \"score\": [0, 0, 1, -1, 0, 2, 1, 1, 2, 6]},\n            {\"name\": \"A Quang\", \"score\": [1, 1, 2, -1, 1, 1, 1, 2, 1, 9]},\n            {\"name\": \"A Hiệp\", \"score\": [1, 2, 1, 0, 0, 1, 3, 3, 2, 13]},\n            {\"name\": \"A Nam\", \"score\": [1, 2, 2, 1, 3, 4, 1, 0, 0, 14]},\n            {\"name\": \"A Dũng\", \"score\": [1, 1, 2, 1, 0, 1, 1, -1, 2, 8]}\n        ]\n    }\n]\n```"
+                    }
+                ]
+            }            
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that responds in JSON format with the golf score card information. Do not add any annotations there. Remember to close any bracket."
+            },
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "train_data/score_card_2/IMG_9424.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "From this image, return json that has field list is the list of information (hand written text) that each element has field name is the name of player, score is the list of all scores of that player in format like this. The golf score is calculated like this, they hasve 9 front and 9 back scores. Remember that the each score would be from 0-9 but after 9 digits, which mean the 10th element is the sum of the last 9 scores, and the 20th element will be the sum of hole 11 to 19. for example the score will be [0, 1, 2, 1, 3, 2, 0, 0, 1, 11][{\"golf\": [{\"name\": \"\", \"score\": []}, {\"name\": \"\", \"score\": []}]"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "```json\n[\n    {\n        \"golf\": [\n            {\n                \"name\": \"Lê Hiền\", \n                \"score\": [6, 5, 6, 4, 7, 4, 6, 5, 7, 50, 3, 6, 3, 5, 5, 5, 5, 3, 4, 39]\n            }\n        ]\n    }\n]\n```"
+                    }
+                ]
+            }            
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that responds in JSON format with the golf score card information. Do not add any annotations there. Remember to close any bracket."
+            },
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "train_data/score_card_2/IMG_9425.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "From this image, return json that has field list is the list of information (hand written text) that each element has field name is the name of player, score is the list of all scores of that player in format like this. The golf score is calculated like this, they hasve 9 front and 9 back scores. Remember that the each score would be from 0-9 but after 9 digits, which mean the 10th element is the sum of the last 9 scores, and the 20th element will be the sum of hole 11 to 19. for example the score will be [0, 1, 2, 1, 3, 2, 0, 0, 1, 11][{\"golf\": [{\"name\": \"\", \"score\": []}, {\"name\": \"\", \"score\": []}]"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "```json\n[\n    {\n        \"golf\": [\n            {\n                \"name\": \"Lê Khánh Hưng\",\n                \"score\": [4, 3, 4, 4, 5, 4, 4, 4, 3, 35, 4, 3, 3, 4, 4, 5, 4, 3, 5, 35, 70]\n            },\n            {\n                \"name\": \"Lê Khánh Hưng\",\n                \"score\": [0, -1, 0, 1, 0, 0, -1, 1, -1, -1, 0, -2, 0, 0, 0, 0, 0, 0, 1, -1, -2]\n            }\n        ]\n    }\n]\n```"
+                    }
+                ]
+            }            
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that responds in JSON format with the golf score card information. Do not add any annotations there. Remember to close any bracket."
+            },
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "train_data/score_card_2/IMG_9426.JPG"
+                    },
+                    {
+                        "type": "text",
+                        "text": "From this image, return json that has field list is the list of information (hand written text) that each element has field name is the name of player, score is the list of all scores of that player in format like this. The golf score is calculated like this, they hasve 9 front and 9 back scores. Remember that the each score would be from 0-9 but after 9 digits, which mean the 10th element is the sum of the last 9 scores, and the 20th element will be the sum of hole 11 to 19. for example the score will be [0, 1, 2, 1, 3, 2, 0, 0, 1, 11][{\"golf\": [{\"name\": \"\", \"score\": []}, {\"name\": \"\", \"score\": []}]"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "```json\n{\n    \"golf\": [\n        {\n            \"name\": \"A. Tiến\",\n            \"score\": [0, 1, 1, 2, 1, 1, 0, 0, 4, 10, 3, 2, 2, -1, 2, 1, 1, 1, 3, 14, 24]\n        },\n        {\n            \"name\": \"A. Kiên\",\n            \"score\": [3, 3, 1, 2, 3, 1, 2, 2, 2, 19, 1, 3, 4, 1, 1, 1, 1, 1, 3, 16, 35]\n        },\n        {\n            \"name\": \"A. Linh\",\n            \"score\": [2, 1, 2, 2, 3, 0, 4, 2, 4, 20, 1, 2, 0, 1, 3, 2, 0, 0, 1, 10, 30]\n        },\n        {\n            \"name\": \"A. Đông\",\n            \"score\": [2, 3, 2, 1, 2, 3, 1, 2, 2, 19, 2, 3, 1, 1, 1, 4, 1, 0, 0, 13, 32]\n        }\n    ]\n}\n```"
+                    }
+                ]
+            }            
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that responds in JSON format with the golf score card information. Do not add any annotations there. Remember to close any bracket."
+            },
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "train_data/score_card_2/IMG_9427.JPG"
+                    },
+                    {
+                        "type": "text",
+                        "text": "From this image, return json that has field list is the list of information (hand written text) that each element has field name is the name of player, score is the list of all scores of that player in format like this. The golf score is calculated like this, they hasve 9 front and 9 back scores. Remember that the each score would be from 0-9 but after 9 digits, which mean the 10th element is the sum of the last 9 scores, and the 20th element will be the sum of hole 11 to 19. for example the score will be [0, 1, 2, 1, 3, 2, 0, 0, 1, 11][{\"golf\": [{\"name\": \"\", \"score\": []}, {\"name\": \"\", \"score\": []}]"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "```json\n{\n    \"golf\": [\n        {\"name\": \"A Kha (14)\", \"score\": [0, 0, 1, 1, -1, 1, 1, 0, 1, 4, 2, 3, 0, 1, 0, 1, 0, 0, 3, 10, 14]},\n        {\"name\": \"A Ngân (21)\", \"score\": [2, 1, 1, 2, 0, 1, 2, 0, 2, 11, 1, 2, 1, 2, 1, 2, 0, 0, 3, 12, 23]},\n        {\"name\": \"A Trung (34)\", \"score\": [1, 2, 3, 2, 1, 1, 3, 2, 2, 17, 3, 3, 4, 0, 1, 1, 4, 0, 2, 18, 35]},\n        {\"name\": \"A Thọ\", \"score\": [1, 4, 0, 1, 1, 1, 1, 4, 1, 14, 2, 1, 1, 4, 1, 2, -1, 1, -1, 10, 24]}\n    ]\n}\n```"
+                    }                    
                 ]
             }
         ]
@@ -70,11 +250,11 @@
                 "content": [
                     {
                         "type": "image",
-                        "image": "train_data\\score_card_2\\IMG_9376.jpg"
+                        "image": "train_data/score_card_2/IMG_9428.JPG"
                     },
                     {
                         "type": "text",
-                        "text": "From this image, return json that has field list is the list of information (hand written text) that each element has field name is the name of player, score is the list of all scores of that player in format like this. The golf score is calculated like this, they hasve 9 front and 9 back scores. Remember that the each score would be from 0-9 but after 9 digits, which mean the 10th element is the sum of the last 9 scores, and the 20th element will be the sum of hole 11 to 19. for example the score will be [0, 1, 2, 1, 3, 2, 0, 0, 1, 11][{\"golf\": [{\"name\": \"\", \"score\": []}, {\"name\": \"\", \"score\": []}]These are examples: ```json\n[\n    {\n        \"golf\": [\n            {\"name\": \"T Anh\", \"score\": [2, 3, 1, 1, 2, 1, 1, 0, 3, 14]},\n            {\"name\": \"Tấn\", \"score\": [1, 0, 1, 1, 0, 1, 2, 2, 2, 10]},\n            {\"name\": \"A Phúc\", \"score\": [1, 0, 2, 1, 1, 2, 2, 2, 2, 13]},\n            {\"name\": \"A Tuấn\", \"score\": [2, 0, 1, 0, 0, 4, 3, 1, 4, 15]}\n        ]\n    }\n]\n```or ```json\n[\n    {\n        \"golf\": [\n            {\"name\": \"C Ngân\", \"score\": [2, 4, 3, 2, 2, 1, 1, 1, 2, 18]},\n            {\"name\": \"C Ngân\", \"score\": [2, 2, 1, 4, 0, 2, 2, 2, 2, 17]}\n        ]\n    }\n]\n```"
+                        "text": "From this image, return json that has field list is the list of information (hand written text) that each element has field name is the name of player, score is the list of all scores of that player in format like this. The golf score is calculated like this, they hasve 9 front and 9 back scores. Remember that the each score would be from 0-9 but after 9 digits, which mean the 10th element is the sum of the last 9 scores, and the 20th element will be the sum of hole 11 to 19. for example the score will be [0, 1, 2, 1, 3, 2, 0, 0, 1, 11][{\"golf\": [{\"name\": \"\", \"score\": []}, {\"name\": \"\", \"score\": []}]"
                     }
                 ]
             },
@@ -83,8 +263,38 @@
                 "content": [
                     {
                         "type": "text",
-                        "text": "```json\n{\"golf\": [{\"name\": \"A Quay\", \"score\": [\"1\", \"1\", \"3\", \"1\", \"1\", \"2\", \"2\", \"2\", \"0\", \"13\"]}, {\"name\": \"A Hiệp\", \"score\": [\"2\", \"1\", \"1\", \"2\", \"1\", \"1\", \"1\", \"0\", \"1\", \"10\"]}, {\"name\": \"A Hiếu\", \"score\": [\"3\", \"2\", \"0\", \"2\", \"2\", \"1\", \"2\", \"1\", null, null]}, {\"name\": \"A Duẩn\", \"score\": [\"0\", \"1\", \"1\", \"4\", \"2\", \"2\", \"0\", \"0\", null, null]}]}\n```"
+                        "text": "```json\n{\n    \"golf\": [\n        {\"name\": \"Phong (-1)\", \"score\": [0, 0, 2, 1, 1, 1, 1, 1, 1, 8]},\n        {\"name\": \"Trung (-1)\", \"score\": [1, 1, 0, 1, 1, 1, 1, 0, 1, 7]},\n        {\"name\": \"Sơn (+5)\", \"score\": [1, 2, 0, 0, 3, 1, 2, 2, 2, 13]},\n        {\"name\": \"Tuấn (+15)\", \"score\": [0, 2, 1, -1, 2, 2, 2, 2, 3, 13]},\n        {\"name\": \"Phong (-1)\", \"score\": [-1, 2, 2, 1, 1, 1, 0, 1, 3, 10]},\n        {\"name\": \"Trung (-1)\", \"score\": [0, 2, 1, 0, 1, 1, 1, 1, 2, 9]},\n        {\"name\": \"Sơn (+5)\", \"score\": [0, 1, 3, 0, -1, 1, 0, 0, 4, 8]},\n        {\"name\": \"Tuấn (+15)\", \"score\": [0, 3, 2, 1, 3, 1, 1, 0, 0, 11]}\n    ]\n}\n```"
                     }
+                ]
+            }            
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that responds in JSON format with the golf score card information. Do not add any annotations there. Remember to close any bracket."
+            },
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "train_data/score_card_2/IMG_9429.JPG"
+                    },
+                    {
+                        "type": "text",
+                        "text": "From this image, return json that has field list is the list of information (hand written text) that each element has field name is the name of player, score is the list of all scores of that player in format like this. The golf score is calculated like this, they hasve 9 front and 9 back scores. Remember that the each score would be from 0-9 but after 9 digits, which mean the 10th element is the sum of the last 9 scores, and the 20th element will be the sum of hole 11 to 19. for example the score will be [0, 1, 2, 1, 3, 2, 0, 0, 1, 11][{\"golf\": [{\"name\": \"\", \"score\": []}, {\"name\": \"\", \"score\": []}]"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "```json\n{\n    \"golf\": [\n        {\"name\": \"kha (14)\", \"score\": [0, 0, 1, 0, 0, 1, 0, 1, 0, 3, 1, 1, 0, 2, 1, 1, 0, 0, 0, 6, 9, -5]},\n        {\"name\": \"Trung (14)\", \"score\": [0, 0, 0, -1, 2, 0, 1, 1, 0, 3, 1, 1, 0, 2, 4, 0, 1, 1, 0, 10, 13, -1]},\n        {\"name\": \"Linh (21)\", \"score\": [0, 0, 1, 3, 1, 1, 1, 1, 1, 9, 0, 2, 0, 3, 2, 2, 1, 1, 0, 11, 20, -1]},\n        {\"name\": \"Tuấn (10)\", \"score\": [1, 1, 0, 1, 4, 1, 0, 1, 1, 10, 2, 0, 3, 1, 0, 3, 1, 1, 0, 11, 21, 11]}\n    ]\n}\n```"
+                    }                    
                 ]
             }
         ]
@@ -100,11 +310,11 @@
                 "content": [
                     {
                         "type": "image",
-                        "image": "train_data\\score_card_2\\IMG_9377.JPG"
+                        "image": "train_data/score_card_2/IMG_9430.JPG"
                     },
                     {
                         "type": "text",
-                        "text": "From this image, return json that has field list is the list of information (hand written text) that each element has field name is the name of player, score is the list of all scores of that player in format like this. The golf score is calculated like this, they hasve 9 front and 9 back scores. Remember that the each score would be from 0-9 but after 9 digits, which mean the 10th element is the sum of the last 9 scores, and the 20th element will be the sum of hole 11 to 19. for example the score will be [0, 1, 2, 1, 3, 2, 0, 0, 1, 11][{\"golf\": [{\"name\": \"\", \"score\": []}, {\"name\": \"\", \"score\": []}]These are examples: ```json\n[\n    {\n        \"golf\": [\n            {\"name\": \"T Anh\", \"score\": [2, 3, 1, 1, 2, 1, 1, 0, 3, 14]},\n            {\"name\": \"Tấn\", \"score\": [1, 0, 1, 1, 0, 1, 2, 2, 2, 10]},\n            {\"name\": \"A Phúc\", \"score\": [1, 0, 2, 1, 1, 2, 2, 2, 2, 13]},\n            {\"name\": \"A Tuấn\", \"score\": [2, 0, 1, 0, 0, 4, 3, 1, 4, 15]}\n        ]\n    }\n]\n```or ```json\n[\n    {\n        \"golf\": [\n            {\"name\": \"C Ngân\", \"score\": [2, 4, 3, 2, 2, 1, 1, 1, 2, 18]},\n            {\"name\": \"C Ngân\", \"score\": [2, 2, 1, 4, 0, 2, 2, 2, 2, 17]}\n        ]\n    }\n]\n```"
+                        "text": "From this image, return json that has field list is the list of information (hand written text) that each element has field name is the name of player, score is the list of all scores of that player in format like this. The golf score is calculated like this, they hasve 9 front and 9 back scores. Remember that the each score would be from 0-9 but after 9 digits, which mean the 10th element is the sum of the last 9 scores, and the 20th element will be the sum of hole 11 to 19. for example the score will be [0, 1, 2, 1, 3, 2, 0, 0, 1, 11][{\"golf\": [{\"name\": \"\", \"score\": []}, {\"name\": \"\", \"score\": []}]"
                     }
                 ]
             },
@@ -113,8 +323,8 @@
                 "content": [
                     {
                         "type": "text",
-                        "text": "```json\n[{\"golf\": [{\"name\": \"L\\u1ebf OL\", \"score\": [4, 6, 5, 4, 6, 5, 5, 7, 4, 42]}, {\"name\": \"V\\u1ee7 Th\\u00e0nh L\\u00ea\", \"score\": [6, 8, 5, 4, 5, 8, 6, 4, 6, 52]}, {\"name\": \"TH55 Mai Truy Thanh\", \"score\": [5, 8, 5, 6, 5, 7, 6, 3, 7, 53]}, {\"name\": \"TH 38\", \"score\": [5, 8, 5, 6, 5, 7, 6, 3, 7, 53]}]}]\n```"
-                    }
+                        "text": "```json\n{\n    \"golf\": [\n        {\"name\": \"Trung (16)\", \"score\": [1, 3, 2, 2, 1, 1, 0, 0, 3, 13, 1, 4, 1, 0, 1, 1, 1, 1, 1, 11, 24]},\n        {\"name\": \"Son (18)\", \"score\": [3, 3, 3, 1, 2, 1, 1, 2, 2, 18, 3, 0, 2, 2, 1, 1, 3, 1, 1, 14, 32]},\n        {\"name\": \"Kien (25)\", \"score\": [0, 0, 3, 1, 3, 2, 1, 0, 3, 13, 1, 1, 0, 1, 1, 1, 1, 3, 0, 9, 22]}\n    ]\n}\n```"
+                    }                    
                 ]
             }
         ]
@@ -130,11 +340,11 @@
                 "content": [
                     {
                         "type": "image",
-                        "image": "train_data\\score_card_2\\IMG_9378.JPG"
+                        "image": "train_data/score_card_2/IMG_9431.JPG"
                     },
                     {
                         "type": "text",
-                        "text": "From this image, return json that has field list is the list of information (hand written text) that each element has field name is the name of player, score is the list of all scores of that player in format like this. The golf score is calculated like this, they hasve 9 front and 9 back scores. Remember that the each score would be from 0-9 but after 9 digits, which mean the 10th element is the sum of the last 9 scores, and the 20th element will be the sum of hole 11 to 19. for example the score will be [0, 1, 2, 1, 3, 2, 0, 0, 1, 11][{\"golf\": [{\"name\": \"\", \"score\": []}, {\"name\": \"\", \"score\": []}]These are examples: ```json\n[\n    {\n        \"golf\": [\n            {\"name\": \"T Anh\", \"score\": [2, 3, 1, 1, 2, 1, 1, 0, 3, 14]},\n            {\"name\": \"Tấn\", \"score\": [1, 0, 1, 1, 0, 1, 2, 2, 2, 10]},\n            {\"name\": \"A Phúc\", \"score\": [1, 0, 2, 1, 1, 2, 2, 2, 2, 13]},\n            {\"name\": \"A Tuấn\", \"score\": [2, 0, 1, 0, 0, 4, 3, 1, 4, 15]}\n        ]\n    }\n]\n```or ```json\n[\n    {\n        \"golf\": [\n            {\"name\": \"C Ngân\", \"score\": [2, 4, 3, 2, 2, 1, 1, 1, 2, 18]},\n            {\"name\": \"C Ngân\", \"score\": [2, 2, 1, 4, 0, 2, 2, 2, 2, 17]}\n        ]\n    }\n]\n```"
+                        "text": "From this image, return json that has field list is the list of information (hand written text) that each element has field name is the name of player, score is the list of all scores of that player in format like this. The golf score is calculated like this, they hasve 9 front and 9 back scores. Remember that the each score would be from 0-9 but after 9 digits, which mean the 10th element is the sum of the last 9 scores, and the 20th element will be the sum of hole 11 to 19. for example the score will be [0, 1, 2, 1, 3, 2, 0, 0, 1, 11][{\"golf\": [{\"name\": \"\", \"score\": []}, {\"name\": \"\", \"score\": []}]"
                     }
                 ]
             },
@@ -143,8 +353,8 @@
                 "content": [
                     {
                         "type": "text",
-                        "text": "```json\n[\n  {\n    \"golf\": [\n      {\n        \"name\": \"A.Luong\",\n        \"score\": [\n          1,\n          0,\n          0,\n          4,\n          1,\n          0,\n          0,\n          1,\n          1,\n          8\n        ]\n      },\n      {\n        \"name\": \"A.Thanh\",\n        \"score\": [\n          4,\n          1,\n          0,\n          0,\n          2,\n          1,\n          1,\n          0,\n          0,\n          9\n        ]\n      },\n      {\n        \"name\": \"A.Hien\",\n        \"score\": [\n          4,\n          1,\n          0,\n          0,\n          2,\n          2,\n          1,\n          1,\n          2,\n          13\n        ]\n      },\n      {\n        \"name\": null,\n        \"score\": [\n          1,\n          1,\n          1,\n          2,\n          1,\n          1,\n          3,\n          5,\n          1,\n          16\n        ]\n      },\n      {\n        \"name\": null,\n        \"score\": [\n          0,\n          0,\n          1,\n          0,\n          0,\n          0,\n          0,\n          1,\n          0,\n          2\n        ]\n      },\n      {\n        \"name\": null,\n        \"score\": [\n          1,\n          0,\n          0,\n          1,\n          2,\n          1,\n          3,\n          2,\n          0,\n          10\n        ]\n      }\n    ]\n  }\n]\n```"
-                    }
+                        "text": "```json\n{\n    \"golf\": [\n        {\n            \"name\": \"Cường\",\n            \"score\": [1, 2, 1, 3, 2, 1, 4, 1, 0, 15, 4, 1, 2, 5, 0, 3, 1, 3, 8, 27]\n        },\n        {\n            \"name\": \"Trung\",\n            \"score\": [2, 2, 1, 2, 3, 2, 2, 1, 3, 18, 2, 3, 1, 2, 3, 1, 3, 1, 2, 18]\n        },\n        {\n            \"name\": \"Sơn\",\n            \"score\": [1, 2, 2, 3, 1, 5, 3, 3, 2, 22, 2, 3, 1, 4, 2, 2, 3, 0, 2, 19]\n        },\n        {\n            \"name\": \"Kiên\",\n            \"score\": [0, 3, 1, 3, 1, 2, 2, 5, 2, 19, 4, 2, 3, 2, 2, 1, 1, 1, 2, 18]\n        }\n    ]\n}\n```"
+                    }                    
                 ]
             }
         ]
@@ -160,11 +370,11 @@
                 "content": [
                     {
                         "type": "image",
-                        "image": "train_data\\score_card_2\\IMG_9381.jpg"
+                        "image": "train_data/score_card_2/IMG_9433.JPG"
                     },
                     {
                         "type": "text",
-                        "text": "From this image, return json that has field list is the list of information (hand written text) that each element has field name is the name of player, score is the list of all scores of that player in format like this. The golf score is calculated like this, they hasve 9 front and 9 back scores. Remember that the each score would be from 0-9 but after 9 digits, which mean the 10th element is the sum of the last 9 scores, and the 20th element will be the sum of hole 11 to 19. for example the score will be [0, 1, 2, 1, 3, 2, 0, 0, 1, 11][{\"golf\": [{\"name\": \"\", \"score\": []}, {\"name\": \"\", \"score\": []}]These are examples: ```json\n[\n    {\n        \"golf\": [\n            {\"name\": \"T Anh\", \"score\": [2, 3, 1, 1, 2, 1, 1, 0, 3, 14]},\n            {\"name\": \"Tấn\", \"score\": [1, 0, 1, 1, 0, 1, 2, 2, 2, 10]},\n            {\"name\": \"A Phúc\", \"score\": [1, 0, 2, 1, 1, 2, 2, 2, 2, 13]},\n            {\"name\": \"A Tuấn\", \"score\": [2, 0, 1, 0, 0, 4, 3, 1, 4, 15]}\n        ]\n    }\n]\n```or ```json\n[\n    {\n        \"golf\": [\n            {\"name\": \"C Ngân\", \"score\": [2, 4, 3, 2, 2, 1, 1, 1, 2, 18]},\n            {\"name\": \"C Ngân\", \"score\": [2, 2, 1, 4, 0, 2, 2, 2, 2, 17]}\n        ]\n    }\n]\n```"
+                        "text": "From this image, return json that has field list is the list of information (hand written text) that each element has field name is the name of player, score is the list of all scores of that player in format like this. The golf score is calculated like this, they hasve 9 front and 9 back scores. Remember that the each score would be from 0-9 but after 9 digits, which mean the 10th element is the sum of the last 9 scores, and the 20th element will be the sum of hole 11 to 19. for example the score will be [0, 1, 2, 1, 3, 2, 0, 0, 1, 11][{\"golf\": [{\"name\": \"\", \"score\": []}, {\"name\": \"\", \"score\": []}]"
                     }
                 ]
             },
@@ -173,8 +383,8 @@
                 "content": [
                     {
                         "type": "text",
-                        "text": "```json\n[{\"golf\": [{\"name\": \"A Quang\", \"score\": [\"1\", \"0\", \"5\", \"2\", \"1\", \"1\", \"0\", \"0\", \"3\", \"13\"]}, {\"name\": \"A diep\", \"score\": [\"1\", \"1\", \"1\", \"0\", \"0\", \"1\", \"0\", \"0\", \"4\", \"9\"]}, {\"name\": \"A Nam\", \"score\": [\"1\", \"3\", \"1\", \"1\", \"0\", \"2\", \"2\", \"2\", \"3\", \"16\"]}, {\"name\": \"A Duong\", \"score\": [\"0\", \"0\", \"1\", \"△\", \"0\", \"2\", \"1\", \"1\", \"2\", \"6\"]}, {\"name\": \"A Quicy\", \"score\": [\"1\", \"1\", \"2\", \"△\", \"1\", \"1\", \"1\", \"2\", \"1\", \"11\"]}, {\"name\": \"A Hiệp\", \"score\": [\"1\", \"2\", \"1\", \"0\", \"0\", \"1\", \"3\", \"3\", \"2\", \"13\"]}, {\"name\": \"A Nam\", \"score\": [\"1\", \"2\", \"2\", \"1\", \"3\", \"4\", \"1\", \"0\", \"0\", \"14\"]}, {\"name\": \"A Duong\", \"score\": [\"1\", \"1\", \"2\", \"1\", \"0\", \"1\", \"1\", \"△\", \"2\", \"8\"]}]}]\n```"
-                    }
+                        "text": "```json\n{\n    \"golf\": [\n        {\"name\": \"Trung (15)\", \"score\": [1, 0, 1, 2, 2, 0, -1, 1, 1, 7, 3, 0, 1, 2, 2, 0, 1, 1, 2, 12]},\n        {\"name\": \"Phong (22)\", \"score\": [3, 1, 2, 1, 2, 3, 1, 1, 1, 15, 1, 2, 0, 1, 1, 2, 2, 1, 1, 11]},\n        {\"name\": \"Tien (25)\", \"score\": [2, 3, 1, 2, 2, 1, 1, 2, 0, 14, 2, -1, 1, 2, 3, 1, 0, 0, 2, 10]},\n        {\"name\": \"Khoa (21)\", \"score\": [0, 4, 0, 1, 0, 2, 3, 2, 4, 16, 2, 1, 0, 0, 1, 2, 0, 2, 0, 8]}\n    ]\n}\n```"
+                    }                    
                 ]
             }
         ]
@@ -190,11 +400,11 @@
                 "content": [
                     {
                         "type": "image",
-                        "image": "train_data\\score_card_2\\IMG_9424.jpg"
+                        "image": "train_data/score_card_2/IMG_9435.JPG"
                     },
                     {
                         "type": "text",
-                        "text": "From this image, return json that has field list is the list of information (hand written text) that each element has field name is the name of player, score is the list of all scores of that player in format like this. The golf score is calculated like this, they hasve 9 front and 9 back scores. Remember that the each score would be from 0-9 but after 9 digits, which mean the 10th element is the sum of the last 9 scores, and the 20th element will be the sum of hole 11 to 19. for example the score will be [0, 1, 2, 1, 3, 2, 0, 0, 1, 11][{\"golf\": [{\"name\": \"\", \"score\": []}, {\"name\": \"\", \"score\": []}]These are examples: ```json\n[\n    {\n        \"golf\": [\n            {\"name\": \"T Anh\", \"score\": [2, 3, 1, 1, 2, 1, 1, 0, 3, 14]},\n            {\"name\": \"Tấn\", \"score\": [1, 0, 1, 1, 0, 1, 2, 2, 2, 10]},\n            {\"name\": \"A Phúc\", \"score\": [1, 0, 2, 1, 1, 2, 2, 2, 2, 13]},\n            {\"name\": \"A Tuấn\", \"score\": [2, 0, 1, 0, 0, 4, 3, 1, 4, 15]}\n        ]\n    }\n]\n```or ```json\n[\n    {\n        \"golf\": [\n            {\"name\": \"C Ngân\", \"score\": [2, 4, 3, 2, 2, 1, 1, 1, 2, 18]},\n            {\"name\": \"C Ngân\", \"score\": [2, 2, 1, 4, 0, 2, 2, 2, 2, 17]}\n        ]\n    }\n]\n```"
+                        "text": "From this image, return json that has field list is the list of information (hand written text) that each element has field name is the name of player, score is the list of all scores of that player in format like this. The golf score is calculated like this, they hasve 9 front and 9 back scores. Remember that the each score would be from 0-9 but after 9 digits, which mean the 10th element is the sum of the last 9 scores, and the 20th element will be the sum of hole 11 to 19. for example the score will be [0, 1, 2, 1, 3, 2, 0, 0, 1, 11][{\"golf\": [{\"name\": \"\", \"score\": []}, {\"name\": \"\", \"score\": []}]"
                     }
                 ]
             },
@@ -203,8 +413,8 @@
                 "content": [
                     {
                         "type": "text",
-                        "text": "```json\n{\"golf\": [{\"name\": \"LeKhanh\", \"score\": [6, 5, 6, 4, 7, 4, 6, 5, 7, 44, 3, 6, 3, 5, 5, 5, 5, 3, 4, 37]}]}\n```"
-                    }
+                        "text": "```json\n{\n    \"golf\": [\n        {\"name\": \"THANG\", \"score\": [2, 1, 0, 1, 0, 1, 0, 1, 2, 8, 0, 2, 0, 3, 1, 1, 1, 1, 2, 11, 19]},\n        {\"name\": \"TUAN\", \"score\": [0, 1, 2, 0, 1, 0, 1, 3, 0, 8, 4, 0, 2, 3, 0, 0, 1, 1, 0, 11, 19]},\n        {\"name\": \"TUNG\", \"score\": [1, 1, 1, 0, 3, 1, 2, 2, 1, 12, 1, 1, 1, 1, 2, 0, 1, 0, 1, 8, 20]},\n        {\"name\": \"BINH\", \"score\": [4, 1, 1, 2, 1, 1, 0, 2, 0, 12, 1, 0, 1, 2, 1, 1, 4, 0, 3, 13, 25]}\n    ]\n}\n```"
+                    }                    
                 ]
             }
         ]
@@ -220,11 +430,11 @@
                 "content": [
                     {
                         "type": "image",
-                        "image": "train_data\\score_card_2\\IMG_9425.jpg"
+                        "image": "train_data/score_card_2/IMG_9436.JPG"
                     },
                     {
                         "type": "text",
-                        "text": "From this image, return json that has field list is the list of information (hand written text) that each element has field name is the name of player, score is the list of all scores of that player in format like this. The golf score is calculated like this, they hasve 9 front and 9 back scores. Remember that the each score would be from 0-9 but after 9 digits, which mean the 10th element is the sum of the last 9 scores, and the 20th element will be the sum of hole 11 to 19. for example the score will be [0, 1, 2, 1, 3, 2, 0, 0, 1, 11][{\"golf\": [{\"name\": \"\", \"score\": []}, {\"name\": \"\", \"score\": []}]These are examples: ```json\n[\n    {\n        \"golf\": [\n            {\"name\": \"T Anh\", \"score\": [2, 3, 1, 1, 2, 1, 1, 0, 3, 14]},\n            {\"name\": \"Tấn\", \"score\": [1, 0, 1, 1, 0, 1, 2, 2, 2, 10]},\n            {\"name\": \"A Phúc\", \"score\": [1, 0, 2, 1, 1, 2, 2, 2, 2, 13]},\n            {\"name\": \"A Tuấn\", \"score\": [2, 0, 1, 0, 0, 4, 3, 1, 4, 15]}\n        ]\n    }\n]\n```or ```json\n[\n    {\n        \"golf\": [\n            {\"name\": \"C Ngân\", \"score\": [2, 4, 3, 2, 2, 1, 1, 1, 2, 18]},\n            {\"name\": \"C Ngân\", \"score\": [2, 2, 1, 4, 0, 2, 2, 2, 2, 17]}\n        ]\n    }\n]\n```"
+                        "text": "From this image, return json that has field list is the list of information (hand written text) that each element has field name is the name of player, score is the list of all scores of that player in format like this. The golf score is calculated like this, they hasve 9 front and 9 back scores. Remember that the each score would be from 0-9 but after 9 digits, which mean the 10th element is the sum of the last 9 scores, and the 20th element will be the sum of hole 11 to 19. for example the score will be [0, 1, 2, 1, 3, 2, 0, 0, 1, 11][{\"golf\": [{\"name\": \"\", \"score\": []}, {\"name\": \"\", \"score\": []}]"
                     }
                 ]
             },
@@ -233,8 +443,8 @@
                 "content": [
                     {
                         "type": "text",
-                        "text": "```json\n{\"golf\": [{\"name\": \"L\\u1ec7 V\\u0103n L\\u00e0n\", \"score\": [4, 3, 4, 4, 5, 4, 4, 3, 4, 35, 4, 3, 3, 4, 4, 5, 4, 3, 5, 35]}]}\n```"
-                    }
+                        "text": "```json\n{\n    \"golf\": [\n        {\n            \"name\": \"Hà\",\n            \"score\": [2, 2, 1, 1, 1, 1, 2, 1, 2, 13, 1, 2, 1, 3, 2, 1, 0, 0, 2, 12]\n        },\n        {\n            \"name\": \"TRUNG\",\n            \"score\": [3, 3, 3, 2, 2, 2, 2, 2, 2, 21, 2, 1, 0, 2, 2, 2, 0, 1, 3, 13]\n        },\n        {\n            \"name\": \"ĐỨC\",\n            \"score\": [1, 4, 2, 1, 1, 2, 1, 2, 1, 15, 2, 1, 2, 5, 1, 3, 1, 1, 5, 21]\n        },\n        {\n            \"name\": \"ĐÔNG\",\n            \"score\": [3, 2, 1, 2, 3, -1, 2, 3, 3, 18, 1, 8, 2, 3, 1, 4, 0, 3, 1, 3, 4, 21]\n        }\n    ]\n}\n```"
+                    }                    
                 ]
             }
         ]
@@ -250,11 +460,11 @@
                 "content": [
                     {
                         "type": "image",
-                        "image": "train_data\\score_card_2\\IMG_9426.JPG"
+                        "image": "train_data/score_card_2/IMG_9437.JPG"
                     },
                     {
                         "type": "text",
-                        "text": "From this image, return json that has field list is the list of information (hand written text) that each element has field name is the name of player, score is the list of all scores of that player in format like this. The golf score is calculated like this, they hasve 9 front and 9 back scores. Remember that the each score would be from 0-9 but after 9 digits, which mean the 10th element is the sum of the last 9 scores, and the 20th element will be the sum of hole 11 to 19. for example the score will be [0, 1, 2, 1, 3, 2, 0, 0, 1, 11][{\"golf\": [{\"name\": \"\", \"score\": []}, {\"name\": \"\", \"score\": []}]These are examples: ```json\n[\n    {\n        \"golf\": [\n            {\"name\": \"T Anh\", \"score\": [2, 3, 1, 1, 2, 1, 1, 0, 3, 14]},\n            {\"name\": \"Tấn\", \"score\": [1, 0, 1, 1, 0, 1, 2, 2, 2, 10]},\n            {\"name\": \"A Phúc\", \"score\": [1, 0, 2, 1, 1, 2, 2, 2, 2, 13]},\n            {\"name\": \"A Tuấn\", \"score\": [2, 0, 1, 0, 0, 4, 3, 1, 4, 15]}\n        ]\n    }\n]\n```or ```json\n[\n    {\n        \"golf\": [\n            {\"name\": \"C Ngân\", \"score\": [2, 4, 3, 2, 2, 1, 1, 1, 2, 18]},\n            {\"name\": \"C Ngân\", \"score\": [2, 2, 1, 4, 0, 2, 2, 2, 2, 17]}\n        ]\n    }\n]\n```"
+                        "text": "From this image, return json that has field list is the list of information (hand written text) that each element has field name is the name of player, score is the list of all scores of that player in format like this. The golf score is calculated like this, they hasve 9 front and 9 back scores. Remember that the each score would be from 0-9 but after 9 digits, which mean the 10th element is the sum of the last 9 scores, and the 20th element will be the sum of hole 11 to 19. for example the score will be [0, 1, 2, 1, 3, 2, 0, 0, 1, 11][{\"golf\": [{\"name\": \"\", \"score\": []}, {\"name\": \"\", \"score\": []}]"
                     }
                 ]
             },
@@ -263,8 +473,38 @@
                 "content": [
                     {
                         "type": "text",
-                        "text": "```json\n{\"golf\": [{\"name\": \"A. Tiến\", \"score\": [\"0\", \"1\", \"1\", \"2\", \"1\", \"1\", \"0\", \"0\", \"4\", \"10\", \"3\", \"2\", \"2\", \"4\", \"2\", \"1\", \"1\", \"1\", \"3\", \"16\", \"24\"]}, {\"name\": \"A. Kiên\", \"score\": [\"3\", \"3\", \"4\", \"2\", \"3\", \"2\", \"2\", \"2\", \"2\", \"19\", \"1\", \"3\", \"4\", \"1\", \"1\", \"4\", \"1\", \"1\", \"3\", \"16\", \"35\"]}, {\"name\": \"A. Linh\", \"score\": [\"2\", \"1\", \"2\", \"2\", \"3\", \"0\", \"4\", \"2\", \"4\", \"20\", \"2\", \"3\", \"1\", \"1\", \"3\", \"2\", \"0\", \"1\", \"0\", \"13\", \"32\"]}, {\"name\": \"A. Đông\", \"score\": [\"2\", \"3\", \"2\", \"1\", \"2\", \"3\", \"1\", \"2\", \"2\", \"19\", \"2\", \"3\", \"1\", \"1\", \"1\", \"4\", \"1\", \"1\", \"0\", \"13\", \"32\"]}]}\n```"
+                        "text": "```json\n{\n    \"golf\": [\n        {\"name\": \"Lâm\", \"score\": [1, 1, 3, 0, 1, 0, 1, 1, 0, 8, 0, 1, 2, 1, 1, 2, 1, 1, 1, 10]},\n        {\"name\": \"Kiên\", \"score\": [2, 0, 0, 4, 2, 2, 1, 4, 2, 17, 1, 1, 1, 1, 1, 1, 2, 1, 4, 13]},\n        {\"name\": \"Kha\", \"score\": [2, -1, 0, 2, 0, 0, 0, 1, 1, 5, 1, 2, 1, 1, 1, 2, 1, 0, 1, 10]},\n        {\"name\": \"Chung\", \"score\": [1, 3, 3, 3, 3, 1, 2, 1, 2, 19, 2, 2, 2, 2, 2, 1, 1, 0, 4, 16]}\n    ]\n}\n```"
                     }
+                ]
+            }            
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are a helpful assistant that responds in JSON format with the golf score card information. Do not add any annotations there. Remember to close any bracket."
+            },
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "train_data/score_card_2/IMG_9446.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "From this image, return json that has field list is the list of information (hand written text) that each element has field name is the name of player, score is the list of all scores of that player in format like this. The golf score is calculated like this, they hasve 9 front and 9 back scores. Remember that the each score would be from 0-9 but after 9 digits, which mean the 10th element is the sum of the last 9 scores, and the 20th element will be the sum of hole 11 to 19. for example the score will be [0, 1, 2, 1, 3, 2, 0, 0, 1, 11][{\"golf\": [{\"name\": \"\", \"score\": []}, {\"name\": \"\", \"score\": []}]"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "```json\n{\n    \"golf\": [\n        {\"name\": \"Phi\", \"score\": [0, 1, 1, 0, 1, 0, 2, 0, 3, 8, 0, 1, -1, 1, 0, 1, 2, 0, 2, 6, 14]},\n        {\"name\": \"Hà (+3)\", \"score\": [0, 3, 1, 2, 2, 1, 2, 1, 2, 14, 1, 3, 0, 3, 2, 3, 1, 3, 3, 19, 33]},\n        {\"name\": \"Tùng (+6)\", \"score\": [4, 2, 2, 5, 2, 1, 1, 4, 0, 21, 1, 0, -1, 5, 4, 2, 4, 2, 2, 19, 40]},\n        {\"name\": \"Trung (+2)\", \"score\": [4, 3, 1, 3, 2, 2, 2, 1, 2, 20, 3, 0, 1, 2, 4, 0, 1, 2, 2, 15, 35]}\n    ]\n}\n```"
+                    }                    
                 ]
             }
         ]
@@ -280,11 +520,11 @@
                 "content": [
                     {
                         "type": "image",
-                        "image": "train_data\\score_card_2\\IMG_9427.JPG"
+                        "image": "train_data/score_card_2/IMG_9452.JPG"
                     },
                     {
                         "type": "text",
-                        "text": "From this image, return json that has field list is the list of information (hand written text) that each element has field name is the name of player, score is the list of all scores of that player in format like this. The golf score is calculated like this, they hasve 9 front and 9 back scores. Remember that the each score would be from 0-9 but after 9 digits, which mean the 10th element is the sum of the last 9 scores, and the 20th element will be the sum of hole 11 to 19. for example the score will be [0, 1, 2, 1, 3, 2, 0, 0, 1, 11][{\"golf\": [{\"name\": \"\", \"score\": []}, {\"name\": \"\", \"score\": []}]These are examples: ```json\n[\n    {\n        \"golf\": [\n            {\"name\": \"T Anh\", \"score\": [2, 3, 1, 1, 2, 1, 1, 0, 3, 14]},\n            {\"name\": \"Tấn\", \"score\": [1, 0, 1, 1, 0, 1, 2, 2, 2, 10]},\n            {\"name\": \"A Phúc\", \"score\": [1, 0, 2, 1, 1, 2, 2, 2, 2, 13]},\n            {\"name\": \"A Tuấn\", \"score\": [2, 0, 1, 0, 0, 4, 3, 1, 4, 15]}\n        ]\n    }\n]\n```or ```json\n[\n    {\n        \"golf\": [\n            {\"name\": \"C Ngân\", \"score\": [2, 4, 3, 2, 2, 1, 1, 1, 2, 18]},\n            {\"name\": \"C Ngân\", \"score\": [2, 2, 1, 4, 0, 2, 2, 2, 2, 17]}\n        ]\n    }\n]\n```"
+                        "text": "From this image, return json that has field list is the list of information (hand written text) that each element has field name is the name of player, score is the list of all scores of that player in format like this. The golf score is calculated like this, they hasve 9 front and 9 back scores. Remember that the each score would be from 0-9 but after 9 digits, which mean the 10th element is the sum of the last 9 scores, and the 20th element will be the sum of hole 11 to 19. for example the score will be [0, 1, 2, 1, 3, 2, 0, 0, 1, 11][{\"golf\": [{\"name\": \"\", \"score\": []}, {\"name\": \"\", \"score\": []}]"
                     }
                 ]
             },
@@ -293,8 +533,8 @@
                 "content": [
                     {
                         "type": "text",
-                        "text": "```json\n{\"golf\": [{\"name\": \"A Kha\", \"score\": [0, 0, 5, 3, 4, 3, 4, 5, 4, 36]}, {\"name\": \"A Ngain\", \"score\": [2, 1, 1, 2, 0, 1, 2, 0, 1, 10]}, {\"name\": \"A Tuing\", \"score\": [1, 2, 0, 2, 1, 1, 3, 4, 2, 17]}, {\"name\": \"A Tho\", \"score\": [1, 4, 3, 1, 1, 1, 2, 1, 1, 14]}]}\n```"
-                    }
+                        "text": "```json\n{\n    \"golf\": [\n        {\"name\": \"ĐT Hải\", \"score\": [3, 1, 0, 0, 5, 1, 1, 1, 2, 14, 2, 1, 0, 0, 1, 0, 0, 2, 1, 7, 21]},\n        {\"name\": \"NM Hải\", \"score\": [2, 3, 1, 1, 0, 1, 0, 2, 0, 10, 2, 0, -1, 1, 1, 2, 2, 1, 3, 11, 21]},\n        {\"name\": \"NV Cường\", \"score\": [2, 3, 0, 1, 1, 4, 1, 4, 1, 17, 1, 2, 0, 2, 1, 2, 1, 4, 1, 14, 31]},\n        {\"name\": \"NK Tùng\", \"score\": [4, 0, 1, 2, 3, 0, 0, 1, 0, 11, 0, 1, 0, 0, 4, 1, 0, 0, 3, 9, 20]}\n    ]\n}\n```"
+                    }                    
                 ]
             }
         ]
@@ -310,11 +550,11 @@
                 "content": [
                     {
                         "type": "image",
-                        "image": "train_data\\score_card_2\\IMG_9428.JPG"
+                        "image": "train_data/score_card_2/IMG_9456.jpg"
                     },
                     {
                         "type": "text",
-                        "text": "From this image, return json that has field list is the list of information (hand written text) that each element has field name is the name of player, score is the list of all scores of that player in format like this. The golf score is calculated like this, they hasve 9 front and 9 back scores. Remember that the each score would be from 0-9 but after 9 digits, which mean the 10th element is the sum of the last 9 scores, and the 20th element will be the sum of hole 11 to 19. for example the score will be [0, 1, 2, 1, 3, 2, 0, 0, 1, 11][{\"golf\": [{\"name\": \"\", \"score\": []}, {\"name\": \"\", \"score\": []}]These are examples: ```json\n[\n    {\n        \"golf\": [\n            {\"name\": \"T Anh\", \"score\": [2, 3, 1, 1, 2, 1, 1, 0, 3, 14]},\n            {\"name\": \"Tấn\", \"score\": [1, 0, 1, 1, 0, 1, 2, 2, 2, 10]},\n            {\"name\": \"A Phúc\", \"score\": [1, 0, 2, 1, 1, 2, 2, 2, 2, 13]},\n            {\"name\": \"A Tuấn\", \"score\": [2, 0, 1, 0, 0, 4, 3, 1, 4, 15]}\n        ]\n    }\n]\n```or ```json\n[\n    {\n        \"golf\": [\n            {\"name\": \"C Ngân\", \"score\": [2, 4, 3, 2, 2, 1, 1, 1, 2, 18]},\n            {\"name\": \"C Ngân\", \"score\": [2, 2, 1, 4, 0, 2, 2, 2, 2, 17]}\n        ]\n    }\n]\n```"
+                        "text": "From this image, return json that has field list is the list of information (hand written text) that each element has field name is the name of player, score is the list of all scores of that player in format like this. The golf score is calculated like this, they hasve 9 front and 9 back scores. Remember that the each score would be from 0-9 but after 9 digits, which mean the 10th element is the sum of the last 9 scores, and the 20th element will be the sum of hole 11 to 19. for example the score will be [0, 1, 2, 1, 3, 2, 0, 0, 1, 11][{\"golf\": [{\"name\": \"\", \"score\": []}, {\"name\": \"\", \"score\": []}]"
                     }
                 ]
             },
@@ -323,8 +563,8 @@
                 "content": [
                     {
                         "type": "text",
-                        "text": "```json\n{\"golf\": [{\"name\": \"Phong\", \"score\": [\"0\", \"0\", \"2\", \"1\", \"1\", \"1\", \"1\", \"1\", \"1\", \"8\"]}, {\"name\": \"Trung\", \"score\": [\"1\", \"1\", \"2\", \"0\", \"1\", \"1\", \"1\", \"2\", \"0\", \"9\"]}, {\"name\": \"Son\", \"score\": [\"0\", \"2\", \"1\", \"0\", \"2\", \"2\", \"2\", \"2\", \"3\", \"13\"]}, {\"name\": \"Tuan\", \"score\": [\"0\", \"3\", \"2\", \"1\", \"1\", \"3\", \"4\", \"0\", \"0\", \"14\"]}]}\n```"
-                    }
+                        "text": "```json\n{\n    \"golf\": [\n        {\n            \"name\": \"Trung\",\n            \"score\": [1, 0, 1, 1, 0, 1, 1, 1, 1, 7, 6, 0, 0, 1, 0, 1, 2, 1, 0, 3, 8, 16]\n        },\n        {\n            \"name\": \"Kien\",\n            \"score\": [2, -1, 2, 0, 0, 2, 1, 3, 0, 9, 1, 3, 1, 0, 0, 1, 0, 0, 2, 8, 17]\n        },\n        {\n            \"name\": \"Phong\",\n            \"score\": [1, 1, 1, 3, 1, 1, -1, 1, 2, 10, 3, 4, 1, 2, 0, 0, 0, 0, 4, 14]\n        },\n        {\n            \"name\": \"Nghĩa\",\n            \"score\": [2, 0, 2, 3, 1, 0, 0, 1, 1, 10, 0, 0, 1, 2, 1, 0, 1, 2, 2, 9, 19]\n        }\n    ]\n}\n```"
+                    }                    
                 ]
             }
         ]
@@ -340,11 +580,11 @@
                 "content": [
                     {
                         "type": "image",
-                        "image": "train_data\\score_card_2\\IMG_9429.JPG"
+                        "image": "train_data/score_card_2/IMG_9457.JPG"
                     },
                     {
                         "type": "text",
-                        "text": "From this image, return json that has field list is the list of information (hand written text) that each element has field name is the name of player, score is the list of all scores of that player in format like this. The golf score is calculated like this, they hasve 9 front and 9 back scores. Remember that the each score would be from 0-9 but after 9 digits, which mean the 10th element is the sum of the last 9 scores, and the 20th element will be the sum of hole 11 to 19. for example the score will be [0, 1, 2, 1, 3, 2, 0, 0, 1, 11][{\"golf\": [{\"name\": \"\", \"score\": []}, {\"name\": \"\", \"score\": []}]These are examples: ```json\n[\n    {\n        \"golf\": [\n            {\"name\": \"T Anh\", \"score\": [2, 3, 1, 1, 2, 1, 1, 0, 3, 14]},\n            {\"name\": \"Tấn\", \"score\": [1, 0, 1, 1, 0, 1, 2, 2, 2, 10]},\n            {\"name\": \"A Phúc\", \"score\": [1, 0, 2, 1, 1, 2, 2, 2, 2, 13]},\n            {\"name\": \"A Tuấn\", \"score\": [2, 0, 1, 0, 0, 4, 3, 1, 4, 15]}\n        ]\n    }\n]\n```or ```json\n[\n    {\n        \"golf\": [\n            {\"name\": \"C Ngân\", \"score\": [2, 4, 3, 2, 2, 1, 1, 1, 2, 18]},\n            {\"name\": \"C Ngân\", \"score\": [2, 2, 1, 4, 0, 2, 2, 2, 2, 17]}\n        ]\n    }\n]\n```"
+                        "text": "From this image, return json that has field list is the list of information (hand written text) that each element has field name is the name of player, score is the list of all scores of that player in format like this. The golf score is calculated like this, they hasve 9 front and 9 back scores. Remember that the each score would be from 0-9 but after 9 digits, which mean the 10th element is the sum of the last 9 scores, and the 20th element will be the sum of hole 11 to 19. for example the score will be [0, 1, 2, 1, 3, 2, 0, 0, 1, 11][{\"golf\": [{\"name\": \"\", \"score\": []}, {\"name\": \"\", \"score\": []}]"
                     }
                 ]
             },
@@ -353,8 +593,8 @@
                 "content": [
                     {
                         "type": "text",
-                        "text": "```json\n{\"golf\": [{\"name\": \"kha\", \"score\": [\"0\", \"0\", \"1\", \"0\", \"0\", \"1\", \"0\", \"1\", \"0\", \"3\", \"1\", \"1\", \"0\", \"2\", \"1\", \"1\", \"0\", \"0\", \"0\", \"6\", \"6\", \"9\", \"-5\"]}, {\"name\": \"Trung\", \"score\": [\"0\", \"0\", \"0\", \"Δ\", \"2\", \"0\", \"1\", \"1\", \"6\", \"9\", \"1\", \"1\", \"0\", \"2\", \"4\", \"0\", \"1\", \"1\", \"0\", \"10\", \"13\", \"-1\"]}, {\"name\": \"Lios\", \"score\": [\"0\", \"0\", \"1\", \"3\", \"1\", \"1\", \"1\", \"1\", \"9\", \"0\", \"0\", \"2\", \"0\", \"3\", \"2\", \"2\", \"1\", \"1\", \"0\", \"11\", \"20\", \"-1\"]}, {\"name\": \"Tu\\u1ea3n\", \"score\": [\"1\", \"1\", \"0\", \"1\", \"4\", \"1\", \"0\", \"1\", \"1\", \"10\", \"2\", \"0\", \"3\", \"1\", \"0\", \"3\", \"1\", \"1\", \"0\", \"11\", \"21\", \"+1\"]}]}\n```"
-                    }
+                        "text": "```json\n{\n    \"golf\": [\n        {\n            \"name\": \"Phong\",\n            \"score\": [1, 1, 1, 3, 1, 1, -1, 1, 2, 10, 3, 4, 1, 2, 0, 0, 0, 0, 4, 14, 24]\n        },\n        {\n            \"name\": \"Trung\",\n            \"score\": [1, 0, 1, 1, 0, 1, 1, 1, 1, 7, 0, 0, 1, 0, 1, 2, 1, 3, 8, 15]\n        },\n        {\n            \"name\": \"Kiên\",\n            \"score\": [2, -1, 2, 0, 0, 2, 1, 3, 0, 9, 1, 3, 1, 0, 0, 1, 0, 0, 2, 8, 17]\n        },\n        {\n            \"name\": \"Nghĩa\",\n            \"score\": [2, 0, 2, 3, 1, 0, 0, 1, 1, 10, 0, 0, 1, 2, 1, 0, 1, 2, 2, 9, 19]\n        }\n    ]\n}\n```"
+                    }                    
                 ]
             }
         ]
@@ -370,11 +610,11 @@
                 "content": [
                     {
                         "type": "image",
-                        "image": "train_data\\score_card_2\\IMG_9430.JPG"
+                        "image": "train_data/score_card_2/IMG_9458.jpg"
                     },
                     {
                         "type": "text",
-                        "text": "From this image, return json that has field list is the list of information (hand written text) that each element has field name is the name of player, score is the list of all scores of that player in format like this. The golf score is calculated like this, they hasve 9 front and 9 back scores. Remember that the each score would be from 0-9 but after 9 digits, which mean the 10th element is the sum of the last 9 scores, and the 20th element will be the sum of hole 11 to 19. for example the score will be [0, 1, 2, 1, 3, 2, 0, 0, 1, 11][{\"golf\": [{\"name\": \"\", \"score\": []}, {\"name\": \"\", \"score\": []}]These are examples: ```json\n[\n    {\n        \"golf\": [\n            {\"name\": \"T Anh\", \"score\": [2, 3, 1, 1, 2, 1, 1, 0, 3, 14]},\n            {\"name\": \"Tấn\", \"score\": [1, 0, 1, 1, 0, 1, 2, 2, 2, 10]},\n            {\"name\": \"A Phúc\", \"score\": [1, 0, 2, 1, 1, 2, 2, 2, 2, 13]},\n            {\"name\": \"A Tuấn\", \"score\": [2, 0, 1, 0, 0, 4, 3, 1, 4, 15]}\n        ]\n    }\n]\n```or ```json\n[\n    {\n        \"golf\": [\n            {\"name\": \"C Ngân\", \"score\": [2, 4, 3, 2, 2, 1, 1, 1, 2, 18]},\n            {\"name\": \"C Ngân\", \"score\": [2, 2, 1, 4, 0, 2, 2, 2, 2, 17]}\n        ]\n    }\n]\n```"
+                        "text": "From this image, return json that has field list is the list of information (hand written text) that each element has field name is the name of player, score is the list of all scores of that player in format like this. The golf score is calculated like this, they hasve 9 front and 9 back scores. Remember that the each score would be from 0-9 but after 9 digits, which mean the 10th element is the sum of the last 9 scores, and the 20th element will be the sum of hole 11 to 19. for example the score will be [0, 1, 2, 1, 3, 2, 0, 0, 1, 11][{\"golf\": [{\"name\": \"\", \"score\": []}, {\"name\": \"\", \"score\": []}]"
                     }
                 ]
             },
@@ -383,8 +623,8 @@
                 "content": [
                     {
                         "type": "text",
-                        "text": "```json\n{\"golf\": [{\"name\": \"Truong\", \"score\": [4, 3, 2, 2, 1, 1, 0, 3, 13, 24]}, {\"name\": \"Son\", \"score\": [3, 3, 3, 1, 2, 2, 1, 1, 2, 18, 1, 1, 1, 4, 3, 1, 1, 0, 14, 32]}, {\"name\": \"Kien\", \"score\": [0, 0, 3, 1, 3, 2, 1, 1, 1, 12, 1, 1, 1, 3, 0, 9, 22]}]}\n```"
-                    }
+                        "text": "```json\n{\n    \"golf\": [\n        {\"name\": \"Hà\", \"score\": [4, 2, 2, 2, 1, 1, 0, 0, 1, 13, 0, 2, 1, 0, 0, 2, 3, 2, 4, 14]},\n        {\"name\": \"A Kiên\", \"score\": [4, 1, 3, 4, 2, 1, 1, 1, 5, 22, 0, 4, 1, 0, 2, 1, 1, 2, 11]},\n        {\"name\": \"A Cường\", \"score\": [2, 0, 2, 2, 1, 3, 1, 2, 1, 14, 2, 2, 3, 0, 1, 2, 1, 2, 1, 14]}\n    ]\n}\n```"
+                    }                    
                 ]
             }
         ]
@@ -400,11 +640,11 @@
                 "content": [
                     {
                         "type": "image",
-                        "image": "train_data\\score_card_2\\IMG_9431.JPG"
+                        "image": "train_data/score_card_2/IMG_9459.jpg"
                     },
                     {
                         "type": "text",
-                        "text": "From this image, return json that has field list is the list of information (hand written text) that each element has field name is the name of player, score is the list of all scores of that player in format like this. The golf score is calculated like this, they hasve 9 front and 9 back scores. Remember that the each score would be from 0-9 but after 9 digits, which mean the 10th element is the sum of the last 9 scores, and the 20th element will be the sum of hole 11 to 19. for example the score will be [0, 1, 2, 1, 3, 2, 0, 0, 1, 11][{\"golf\": [{\"name\": \"\", \"score\": []}, {\"name\": \"\", \"score\": []}]These are examples: ```json\n[\n    {\n        \"golf\": [\n            {\"name\": \"T Anh\", \"score\": [2, 3, 1, 1, 2, 1, 1, 0, 3, 14]},\n            {\"name\": \"Tấn\", \"score\": [1, 0, 1, 1, 0, 1, 2, 2, 2, 10]},\n            {\"name\": \"A Phúc\", \"score\": [1, 0, 2, 1, 1, 2, 2, 2, 2, 13]},\n            {\"name\": \"A Tuấn\", \"score\": [2, 0, 1, 0, 0, 4, 3, 1, 4, 15]}\n        ]\n    }\n]\n```or ```json\n[\n    {\n        \"golf\": [\n            {\"name\": \"C Ngân\", \"score\": [2, 4, 3, 2, 2, 1, 1, 1, 2, 18]},\n            {\"name\": \"C Ngân\", \"score\": [2, 2, 1, 4, 0, 2, 2, 2, 2, 17]}\n        ]\n    }\n]\n```"
+                        "text": "From this image, return json that has field list is the list of information (hand written text) that each element has field name is the name of player, score is the list of all scores of that player in format like this. The golf score is calculated like this, they hasve 9 front and 9 back scores. Remember that the each score would be from 0-9 but after 9 digits, which mean the 10th element is the sum of the last 9 scores, and the 20th element will be the sum of hole 11 to 19. for example the score will be [0, 1, 2, 1, 3, 2, 0, 0, 1, 11][{\"golf\": [{\"name\": \"\", \"score\": []}, {\"name\": \"\", \"score\": []}]"
                     }
                 ]
             },
@@ -413,8 +653,8 @@
                 "content": [
                     {
                         "type": "text",
-                        "text": "```json\n{\"golf\": [{\"name\": \"Cường\", \"score\": [\"1\", \"2\", \"1\", \"3\", \"2\", \"1\", \"4\", \"4\", \"0\", \"17\", \"1\", \"5\", \"4\", \"1\", \"2\", \"5\", \"0\", \"3\", \"1\", \"18\", \"27\", \"45\", \"42\", \"+8\"]}, {\"name\": \"Trung\", \"score\": [\"2\", \"2\", \"1\", \"2\", \"3\", \"2\", \"2\", \"2\", \"1\", \"17\", \"2\", \"3\", \"1\", \"2\", \"3\", \"1\", \"3\", \"1\", \"2\", \"18\", \"27\", \"36\", \"+0\"]}, {\"name\": \"Sơn\", \"score\": [\"1\", \"2\", \"2\", \"3\", \"1\", \"5\", \"3\", \"3\", \"2\", \"22\", \"2\", \"3\", \"1\", \"4\", \"2\", \"2\", \"2\", \"3\", \"0\", \"22\", \"41\", \"+5\"]}, {\"name\": \"Kiên\", \"score\": [\"3\", \"1\", \"3\", \"1\", \"4\", \"2\", \"2\", \"5\", \"2\", \"22\", \"1\", \"9\", \"4\", \"2\", \"3\", \"2\", \"2\", \"1\", \"1\", \"19\", \"37\", \"+1\"]}]}\n```"
-                    }
+                        "text": "```json\n{\n    \"golf\": [\n        {\"name\": \"Le Trung\", \"score\": [2, 2, 1, 1, 0, 2, 3, 2, 2, 15, 6, 5, 5, 5, 5, 4, 5, 8, 48]},\n        {\"name\": \"D. NGUYEN QUOC KHÁNH\", \"score\": [4, 0, 6, 3, 1, 2, 1, 1, 2, 20, 2, 1, 1, 0, 3, 3, 1, 1, 2, 12, 32]},\n        {\"name\": \"Nguyen Thanh Binh\", \"score\": [7, 3, 0, 6, 1, 6, 5, 6, 4, 38, 5, 8, 3, 0, 5, 3, 4, 1, 1, 6, 44]},\n        {\"name\": \"Vu Manh Cuong\", \"score\": [2, 0, 2, 2, 1, 3, 1, 2, 1, 14, 6, 3, 6, 7, 5, 7, 5, 5, 6, 50, 100]}\n    ]\n}\n```"
+                    }                    
                 ]
             }
         ]
@@ -430,11 +670,11 @@
                 "content": [
                     {
                         "type": "image",
-                        "image": "train_data\\score_card_2\\IMG_9433.JPG"
+                        "image": "train_data/score_card_2/IMG_9460.jpg"
                     },
                     {
                         "type": "text",
-                        "text": "From this image, return json that has field list is the list of information (hand written text) that each element has field name is the name of player, score is the list of all scores of that player in format like this. The golf score is calculated like this, they hasve 9 front and 9 back scores. Remember that the each score would be from 0-9 but after 9 digits, which mean the 10th element is the sum of the last 9 scores, and the 20th element will be the sum of hole 11 to 19. for example the score will be [0, 1, 2, 1, 3, 2, 0, 0, 1, 11][{\"golf\": [{\"name\": \"\", \"score\": []}, {\"name\": \"\", \"score\": []}]These are examples: ```json\n[\n    {\n        \"golf\": [\n            {\"name\": \"T Anh\", \"score\": [2, 3, 1, 1, 2, 1, 1, 0, 3, 14]},\n            {\"name\": \"Tấn\", \"score\": [1, 0, 1, 1, 0, 1, 2, 2, 2, 10]},\n            {\"name\": \"A Phúc\", \"score\": [1, 0, 2, 1, 1, 2, 2, 2, 2, 13]},\n            {\"name\": \"A Tuấn\", \"score\": [2, 0, 1, 0, 0, 4, 3, 1, 4, 15]}\n        ]\n    }\n]\n```or ```json\n[\n    {\n        \"golf\": [\n            {\"name\": \"C Ngân\", \"score\": [2, 4, 3, 2, 2, 1, 1, 1, 2, 18]},\n            {\"name\": \"C Ngân\", \"score\": [2, 2, 1, 4, 0, 2, 2, 2, 2, 17]}\n        ]\n    }\n]\n```"
+                        "text": "From this image, return json that has field list is the list of information (hand written text) that each element has field name is the name of player, score is the list of all scores of that player in format like this. The golf score is calculated like this, they hasve 9 front and 9 back scores. Remember that the each score would be from 0-9 but after 9 digits, which mean the 10th element is the sum of the last 9 scores, and the 20th element will be the sum of hole 11 to 19. for example the score will be [0, 1, 2, 1, 3, 2, 0, 0, 1, 11][{\"golf\": [{\"name\": \"\", \"score\": []}, {\"name\": \"\", \"score\": []}]"
                     }
                 ]
             },
@@ -443,8 +683,8 @@
                 "content": [
                     {
                         "type": "text",
-                        "text": "```json\n{\"golf\": [{\"name\": \"Truong\", \"score\": [\"0\", \"1\", \"2\", \"2\", \"0\", \"△\", \"1\", \"1\", \"7\", \"19\"]}, {\"name\": \"Phong\", \"score\": [\"3\", \"1\", \"2\", \"1\", \"2\", \"3\", \"1\", \"1\", \"5\", \"26\"]}, {\"name\": \"Tien\", \"score\": [\"2\", \"3\", \"1\", \"2\", \"2\", \"1\", \"1\", \"2\", \"0\", \"24\"]}, {\"name\": \"Khoa\", \"score\": [\"0\", \"4\", \"0\", \"1\", \"0\", \"2\", \"3\", \"2\", \"4\", \"16\"]}]}\n```"
-                    }
+                        "text": "```json\n{\n    \"golf\": [\n        {\"name\": \"Tuấn\", \"score\": [0, -1, 1, 1, 1, 4, 1, 3, 1, 11, 2, 0, 1, 0, 0, 2, 0, -1, 1, 5]},\n        {\"name\": \"Nguyên\", \"score\": [2, 1, 1, 1, 1, 1, 0, 0, 2, 9, 2, 2, 1, 0, 1, 2, 1, 2, 4, 14]},\n        {\"name\": \"Tùng\", \"score\": [2, 1, 0, 3, 1, 1, 4, 2, 3, 17, 1, 3, 0, 0, 1, 3, 2, 0, 3, 13]},\n        {\"name\": \"Sơn\", \"score\": [2, 2, 2, 1, 2, 1, -1, 1, 3, 13, -1, 3, 1, 1, 2, 1, 0, 1, 3, 11]}\n    ]\n}\n```"
+                    }                    
                 ]
             }
         ]
@@ -460,11 +700,11 @@
                 "content": [
                     {
                         "type": "image",
-                        "image": "train_data\\score_card_2\\IMG_9435.JPG"
+                        "image": "train_data/score_card_2/IMG_9461.jpg"
                     },
                     {
                         "type": "text",
-                        "text": "From this image, return json that has field list is the list of information (hand written text) that each element has field name is the name of player, score is the list of all scores of that player in format like this. The golf score is calculated like this, they hasve 9 front and 9 back scores. Remember that the each score would be from 0-9 but after 9 digits, which mean the 10th element is the sum of the last 9 scores, and the 20th element will be the sum of hole 11 to 19. for example the score will be [0, 1, 2, 1, 3, 2, 0, 0, 1, 11][{\"golf\": [{\"name\": \"\", \"score\": []}, {\"name\": \"\", \"score\": []}]These are examples: ```json\n[\n    {\n        \"golf\": [\n            {\"name\": \"T Anh\", \"score\": [2, 3, 1, 1, 2, 1, 1, 0, 3, 14]},\n            {\"name\": \"Tấn\", \"score\": [1, 0, 1, 1, 0, 1, 2, 2, 2, 10]},\n            {\"name\": \"A Phúc\", \"score\": [1, 0, 2, 1, 1, 2, 2, 2, 2, 13]},\n            {\"name\": \"A Tuấn\", \"score\": [2, 0, 1, 0, 0, 4, 3, 1, 4, 15]}\n        ]\n    }\n]\n```or ```json\n[\n    {\n        \"golf\": [\n            {\"name\": \"C Ngân\", \"score\": [2, 4, 3, 2, 2, 1, 1, 1, 2, 18]},\n            {\"name\": \"C Ngân\", \"score\": [2, 2, 1, 4, 0, 2, 2, 2, 2, 17]}\n        ]\n    }\n]\n```"
+                        "text": "From this image, return json that has field list is the list of information (hand written text) that each element has field name is the name of player, score is the list of all scores of that player in format like this. The golf score is calculated like this, they hasve 9 front and 9 back scores. Remember that the each score would be from 0-9 but after 9 digits, which mean the 10th element is the sum of the last 9 scores, and the 20th element will be the sum of hole 11 to 19. for example the score will be [0, 1, 2, 1, 3, 2, 0, 0, 1, 11][{\"golf\": [{\"name\": \"\", \"score\": []}, {\"name\": \"\", \"score\": []}]"
                     }
                 ]
             },
@@ -473,8 +713,8 @@
                 "content": [
                     {
                         "type": "text",
-                        "text": "```json\n{\"golf\": [{\"name\": \"THANG\", \"score\": [\"2\", \"1\", \"0\", \"1\", \"0\", \"1\", \"0\", \"1\", \"2\", \"8\", \"0\", \"2\", \"0\", \"3\", \"1\", \"1\", \"1\", \"1\", \"2\", \"11\", \"19\"]}, {\"name\": \"JUAN\", \"score\": [\"0\", \"1\", \"2\", \"0\", \"1\", \"0\", \"1\", \"3\", \"0\", \"8\", \"4\", \"0\", \"2\", \"3\", \"0\", \"0\", \"1\", \"1\", \"0\", \"11\", \"19\"]}, {\"name\": \"TUNG\", \"score\": [\"1\", \"1\", \"1\", \"0\", \"3\", \"1\", \"2\", \"2\", \"1\", \"12\", \"1\", \"0\", \"2\", \"2\", \"1\", \"1\", \"4\", \"0\", \"3\", \"13\", \"20\"]}, {\"name\": \"BINH\", \"score\": [\"4\", \"1\", \"1\", \"2\", \"1\", \"1\", \"0\", \"2\", \"0\", \"12\", \"1\", \"0\", \"2\", \"2\", \"1\", \"1\", \"4\", \"0\", \"3\", \"13\", \"25\"]}]}\n```"
-                    }
+                        "text": "```json\n{\n    \"golf\": [\n        {\n            \"name\": null,\n            \"score\": [4, 3, 5, 6, 5, 8, 5, 6, 5, 46, 6, 5, 4, 4, 4, 6, 3, 3, 5, 41]\n        },\n        {\n            \"name\": null,\n            \"score\": [0, -1, 1, 1, 1, 4, 1, 3, 0, 10, 2, 0, 1, 0, 0, 2, 0, -1, 1, 5]\n        }\n    ]\n}\n```"
+                    }                    
                 ]
             }
         ]
@@ -490,11 +730,11 @@
                 "content": [
                     {
                         "type": "image",
-                        "image": "train_data\\score_card_2\\IMG_9436.JPG"
+                        "image": "train_data/score_card_2/IMG_9462.JPG"
                     },
                     {
                         "type": "text",
-                        "text": "From this image, return json that has field list is the list of information (hand written text) that each element has field name is the name of player, score is the list of all scores of that player in format like this. The golf score is calculated like this, they hasve 9 front and 9 back scores. Remember that the each score would be from 0-9 but after 9 digits, which mean the 10th element is the sum of the last 9 scores, and the 20th element will be the sum of hole 11 to 19. for example the score will be [0, 1, 2, 1, 3, 2, 0, 0, 1, 11][{\"golf\": [{\"name\": \"\", \"score\": []}, {\"name\": \"\", \"score\": []}]These are examples: ```json\n[\n    {\n        \"golf\": [\n            {\"name\": \"T Anh\", \"score\": [2, 3, 1, 1, 2, 1, 1, 0, 3, 14]},\n            {\"name\": \"Tấn\", \"score\": [1, 0, 1, 1, 0, 1, 2, 2, 2, 10]},\n            {\"name\": \"A Phúc\", \"score\": [1, 0, 2, 1, 1, 2, 2, 2, 2, 13]},\n            {\"name\": \"A Tuấn\", \"score\": [2, 0, 1, 0, 0, 4, 3, 1, 4, 15]}\n        ]\n    }\n]\n```or ```json\n[\n    {\n        \"golf\": [\n            {\"name\": \"C Ngân\", \"score\": [2, 4, 3, 2, 2, 1, 1, 1, 2, 18]},\n            {\"name\": \"C Ngân\", \"score\": [2, 2, 1, 4, 0, 2, 2, 2, 2, 17]}\n        ]\n    }\n]\n```"
+                        "text": "From this image, return json that has field list is the list of information (hand written text) that each element has field name is the name of player, score is the list of all scores of that player in format like this. The golf score is calculated like this, they hasve 9 front and 9 back scores. Remember that the each score would be from 0-9 but after 9 digits, which mean the 10th element is the sum of the last 9 scores, and the 20th element will be the sum of hole 11 to 19. for example the score will be [0, 1, 2, 1, 3, 2, 0, 0, 1, 11][{\"golf\": [{\"name\": \"\", \"score\": []}, {\"name\": \"\", \"score\": []}]"
                     }
                 ]
             },
@@ -503,8 +743,8 @@
                 "content": [
                     {
                         "type": "text",
-                        "text": "```json\n{\"golf\": [{\"name\": \"HÀ\", \"score\": [\"2\", \"2\", \"1\", \"1\", \"1\", \"1\", \"2\", \"1\", \"2\", \"13\", \"1\", \"3\", \"4\", \"2\", \"1\", \"3\", \"2\", \"1\", \"0\", \"0\", \"2\", \"42\", \"25\", \"-5\"]}, {\"name\": \"TRƯƠNG\", \"score\": [\"5\", \"3\", \"3\", \"2\", \"2\", \"2\", \"2\", \"2\", \"2\", \"21\", \"3\", \"1\", \"2\", \"0\", \"2\", \"2\", \"2\", \"0\", \"1\", \"3\", \"43\", \"34\", \"+3\"]}, {\"name\": \"ĐỨC\", \"score\": [\"1\", \"4\", \"2\", \"1\", \"1\", \"2\", \"1\", \"2\", \"4\", \"18\", \"1\", \"5\", \"2\", \"1\", \"2\", \"5\", \"1\", \"3\", \"1\", \"1\", \"5\", \"31\", \"36\", \"+8\"]}, {\"name\": \"ĐỒNG\", \"score\": [\"3\", \"2\", \"1\", \"2\", \"3\", \"1\", \"2\", \"3\", \"3\", \"21\", \"1\", \"8\", \"2\", \"3\", \"1\", \"4\", \"0\", \"3\", \"1\", \"3\", \"4\", \"24\", \"39\", \"+3\"]}]}\n```"
-                    }
+                        "text": "```json\n{\n    \"golf\": [\n        {\"name\": \"Dy\", \"score\": [2, 2, 4, 3, 1, 2, 0, 0, 2, 16, 2, 3, 0, 1, 1, 4, 1, 0, 2, 14]},\n        {\"name\": \"Dũng\", \"score\": [1, 0, 4, 2, 2, 0, 0, 1, 2, 12, 3, 2, 2, 1, 0, 1, 0, 3, 3, 15]},\n        {\"name\": \"Sơn\", \"score\": [2, 2, 1, 2, 3, 3, 1, 0, 2, 16, 2, 2, 1, 1, 3, 3, 3, 1, 2, 18]},\n        {\"name\": \"Hùng\", \"score\": [5, 2, 4, 6, 3, 4, 2, 1, 6, 33, 8, 3, 3, 2, 4, 3, 1, 3, 5, 32]}\n    ]\n}\n```"
+                    }                    
                 ]
             }
         ]
@@ -520,11 +760,11 @@
                 "content": [
                     {
                         "type": "image",
-                        "image": "train_data\\score_card_2\\IMG_9437.JPG"
+                        "image": "train_data/score_card_2/IMG_9463.JPG"
                     },
                     {
                         "type": "text",
-                        "text": "From this image, return json that has field list is the list of information (hand written text) that each element has field name is the name of player, score is the list of all scores of that player in format like this. The golf score is calculated like this, they hasve 9 front and 9 back scores. Remember that the each score would be from 0-9 but after 9 digits, which mean the 10th element is the sum of the last 9 scores, and the 20th element will be the sum of hole 11 to 19. for example the score will be [0, 1, 2, 1, 3, 2, 0, 0, 1, 11][{\"golf\": [{\"name\": \"\", \"score\": []}, {\"name\": \"\", \"score\": []}]These are examples: ```json\n[\n    {\n        \"golf\": [\n            {\"name\": \"T Anh\", \"score\": [2, 3, 1, 1, 2, 1, 1, 0, 3, 14]},\n            {\"name\": \"Tấn\", \"score\": [1, 0, 1, 1, 0, 1, 2, 2, 2, 10]},\n            {\"name\": \"A Phúc\", \"score\": [1, 0, 2, 1, 1, 2, 2, 2, 2, 13]},\n            {\"name\": \"A Tuấn\", \"score\": [2, 0, 1, 0, 0, 4, 3, 1, 4, 15]}\n        ]\n    }\n]\n```or ```json\n[\n    {\n        \"golf\": [\n            {\"name\": \"C Ngân\", \"score\": [2, 4, 3, 2, 2, 1, 1, 1, 2, 18]},\n            {\"name\": \"C Ngân\", \"score\": [2, 2, 1, 4, 0, 2, 2, 2, 2, 17]}\n        ]\n    }\n]\n```"
+                        "text": "From this image, return json that has field list is the list of information (hand written text) that each element has field name is the name of player, score is the list of all scores of that player in format like this. The golf score is calculated like this, they hasve 9 front and 9 back scores. Remember that the each score would be from 0-9 but after 9 digits, which mean the 10th element is the sum of the last 9 scores, and the 20th element will be the sum of hole 11 to 19. for example the score will be [0, 1, 2, 1, 3, 2, 0, 0, 1, 11][{\"golf\": [{\"name\": \"\", \"score\": []}, {\"name\": \"\", \"score\": []}]"
                     }
                 ]
             },
@@ -533,8 +773,8 @@
                 "content": [
                     {
                         "type": "text",
-                        "text": "```json\n{\"golf\": [{\"name\": \"L\\u00e2m\", \"score\": [\"1\", \"1\", \"3\", \"0\", \"1\", \"0\", \"1\", \"1\", \"0\", \"8\", \"0\", \"1\", \"2\", \"1\", \"1\", \"2\", \"1\", \"1\", \"1\", \"10\", \"18+2\"]}, {\"name\": \"Ki\\u1ec7n\", \"score\": [\"2\", \"0\", \"0\", \"4\", \"2\", \"2\", \"1\", \"4\", \"2\", \"12\", \"1\", \"1\", \"1\", \"1\", \"1\", \"1\", \"2\", \"1\", \"4\", \"13\", \"30+0\"]}, {\"name\": \"Kha\", \"score\": [\"2\", \"4\", \"0\", \"2\", \"0\", \"0\", \"0\", \"1\", \"1\", \"5\", \"1\", \"2\", \"1\", \"1\", \"1\", \"2\", \"1\", \"0\", \"1\", \"10\", \"15-1\"]}, {\"name\": \"Chung\", \"score\": [\"1\", \"3\", \"3\", \"3\", \"3\", \"1\", \"2\", \"1\", \"2\", \"19\", \"2\", \"2\", \"2\", \"2\", \"2\", \"1\", \"1\", \"0\", \"4\", \"16\", \"35+9\"]}]}\n```"
-                    }
+                        "text": "```json\n[\n    {\n        \"golf\": [\n            {\"name\": \"Trường\", \"score\": [2, 2, 2, 4, 1, 3, 3, 1, 3, 21]},\n            {\"name\": \"Tám (21)\", \"score\": [1, 5, 2, 3, 1, 2, 2, 4, 3, 23]},\n            {\"name\": \"Tám (21)\", \"score\": [\"1\", \"2\", \"5\", \"3\", \"1\", \"1\", \"1\", \"1\", \"0\", \"15\"]},\n            {\"name\": \"Lâm (16)\", \"score\": [\"3\", \"2\", \"0\", \"0\", \"1\", \"1\", \"2\", \"1\", \"0\", \"10\"]},\n            {\"name\": \"Lê (14)\", \"score\": [\"1\", \"3\", \"0\", \"1\", \"1\", \"0\", \"0\", \"0\", \"0\", \"6\"]},\n            {\"name\": \"Trường (23)\", \"score\": [1, 2, 1, 0, 1, 0, 1, 1, 0, 7]},\n            {\"name\": \"Lâm (16)\", \"score\": [1, 5, 0, 2, 1, 3, 1, 1, 0, 14]},\n            {\"name\": \"Lê (14)\", \"score\": [1, 2, 3, 1, 1, 3, 4, 0, 0, 15]}\n        ]\n    }\n]\n```"
+                    }                    
                 ]
             }
         ]
@@ -550,11 +790,11 @@
                 "content": [
                     {
                         "type": "image",
-                        "image": "train_data\\score_card_2\\IMG_9446.jpg"
+                        "image": "train_data/score_card_2/IMG_9465.jpg"
                     },
                     {
                         "type": "text",
-                        "text": "From this image, return json that has field list is the list of information (hand written text) that each element has field name is the name of player, score is the list of all scores of that player in format like this. The golf score is calculated like this, they hasve 9 front and 9 back scores. Remember that the each score would be from 0-9 but after 9 digits, which mean the 10th element is the sum of the last 9 scores, and the 20th element will be the sum of hole 11 to 19. for example the score will be [0, 1, 2, 1, 3, 2, 0, 0, 1, 11][{\"golf\": [{\"name\": \"\", \"score\": []}, {\"name\": \"\", \"score\": []}]These are examples: ```json\n[\n    {\n        \"golf\": [\n            {\"name\": \"T Anh\", \"score\": [2, 3, 1, 1, 2, 1, 1, 0, 3, 14]},\n            {\"name\": \"Tấn\", \"score\": [1, 0, 1, 1, 0, 1, 2, 2, 2, 10]},\n            {\"name\": \"A Phúc\", \"score\": [1, 0, 2, 1, 1, 2, 2, 2, 2, 13]},\n            {\"name\": \"A Tuấn\", \"score\": [2, 0, 1, 0, 0, 4, 3, 1, 4, 15]}\n        ]\n    }\n]\n```or ```json\n[\n    {\n        \"golf\": [\n            {\"name\": \"C Ngân\", \"score\": [2, 4, 3, 2, 2, 1, 1, 1, 2, 18]},\n            {\"name\": \"C Ngân\", \"score\": [2, 2, 1, 4, 0, 2, 2, 2, 2, 17]}\n        ]\n    }\n]\n```"
+                        "text": "From this image, return json that has field list is the list of information (hand written text) that each element has field name is the name of player, score is the list of all scores of that player in format like this. The golf score is calculated like this, they hasve 9 front and 9 back scores. Remember that the each score would be from 0-9 but after 9 digits, which mean the 10th element is the sum of the last 9 scores, and the 20th element will be the sum of hole 11 to 19. for example the score will be [0, 1, 2, 1, 3, 2, 0, 0, 1, 11][{\"golf\": [{\"name\": \"\", \"score\": []}, {\"name\": \"\", \"score\": []}]"
                     }
                 ]
             },
@@ -563,8 +803,8 @@
                 "content": [
                     {
                         "type": "text",
-                        "text": "```json\n{\"golf\": [{\"name\": \"Phu\", \"score\": [\"0\", \"1\", \"1\", \"0\", \"1\", \"0\", \"2\", \"0\", \"3\", \"8\", \"0\", \"1\", \"-1\", \"1\", \"0\", \"1\", \"2\", \"0\", \"2\", \"6\", \"14\", \"33\"]}, {\"name\": \"3Na\", \"score\": [\"0\", \"3\", \"1\", \"2\", \"2\", \"1\", \"2\", \"1\", \"4\", \"14\", \"1\", \"3\", \"0\", \"3\", \"2\", \"3\", \"1\", \"3\", \"3\", \"19\", \"33\", \"40\"]}, {\"name\": \"6Ty\", \"score\": [\"4\", \"2\", \"2\", \"5\", \"2\", \"1\", \"1\", \"4\", \"0\", \"21\", \"0\", \"-1\", \"5\", \"4\", \"2\", \"4\", \"2\", \"2\", \"19\", \"40\", \"35\"]}, {\"name\": \"4Ty\", \"score\": [\"4\", \"3\", \"1\", \"3\", \"2\", \"2\", \"2\", \"1\", \"2\", \"20\", \"3\", \"0\", \"1\", \"2\", \"4\", \"0\", \"1\", \"2\", \"7\", \"19\", \"35\", \"35\"]}]}\n```"
-                    }
+                        "text": "```json\n[\n    {\n        \"golf\": [\n            {\"name\": \"T Anh\", \"score\": [1, 0, 0, 2, 1, 1, 1, 1, 2, 9, 0, 0, 1, 3, 2, 1, 1, 1, 2, 11]},\n            {\"name\": \"Kiên\", \"score\": [3, 2, 1, 4, 0, 2, 1, 1, 4, 18, 2, 4, 0, 0, 2, 2, 0, 2, 1, 13]},\n            {\"name\": \"Hùng\", \"score\": [3, 0, 1, 0, 3, 4, 1, 1, 4, 17, 0, 2, 1, 1, 1, 0, 0, 1, 0, 6]},\n            {\"name\": \"Duy\", \"score\": [0, 1, 0, 0, 2, 3, 2, 0, 1, 9, 0, 1, 1, 0, 1, 1, 1, 1, 1, 7]}\n        ]\n    }\n]\n```"
+                    }                    
                 ]
             }
         ]
@@ -580,11 +820,11 @@
                 "content": [
                     {
                         "type": "image",
-                        "image": "train_data\\score_card_2\\IMG_9452.JPG"
+                        "image": "train_data/score_card_2/IMG_9466.jpg"
                     },
                     {
                         "type": "text",
-                        "text": "From this image, return json that has field list is the list of information (hand written text) that each element has field name is the name of player, score is the list of all scores of that player in format like this. The golf score is calculated like this, they hasve 9 front and 9 back scores. Remember that the each score would be from 0-9 but after 9 digits, which mean the 10th element is the sum of the last 9 scores, and the 20th element will be the sum of hole 11 to 19. for example the score will be [0, 1, 2, 1, 3, 2, 0, 0, 1, 11][{\"golf\": [{\"name\": \"\", \"score\": []}, {\"name\": \"\", \"score\": []}]These are examples: ```json\n[\n    {\n        \"golf\": [\n            {\"name\": \"T Anh\", \"score\": [2, 3, 1, 1, 2, 1, 1, 0, 3, 14]},\n            {\"name\": \"Tấn\", \"score\": [1, 0, 1, 1, 0, 1, 2, 2, 2, 10]},\n            {\"name\": \"A Phúc\", \"score\": [1, 0, 2, 1, 1, 2, 2, 2, 2, 13]},\n            {\"name\": \"A Tuấn\", \"score\": [2, 0, 1, 0, 0, 4, 3, 1, 4, 15]}\n        ]\n    }\n]\n```or ```json\n[\n    {\n        \"golf\": [\n            {\"name\": \"C Ngân\", \"score\": [2, 4, 3, 2, 2, 1, 1, 1, 2, 18]},\n            {\"name\": \"C Ngân\", \"score\": [2, 2, 1, 4, 0, 2, 2, 2, 2, 17]}\n        ]\n    }\n]\n```"
+                        "text": "From this image, return json that has field list is the list of information (hand written text) that each element has field name is the name of player, score is the list of all scores of that player in format like this. The golf score is calculated like this, they hasve 9 front and 9 back scores. Remember that the each score would be from 0-9 but after 9 digits, which mean the 10th element is the sum of the last 9 scores, and the 20th element will be the sum of hole 11 to 19. for example the score will be [0, 1, 2, 1, 3, 2, 0, 0, 1, 11][{\"golf\": [{\"name\": \"\", \"score\": []}, {\"name\": \"\", \"score\": []}]"
                     }
                 ]
             },
@@ -593,8 +833,8 @@
                 "content": [
                     {
                         "type": "text",
-                        "text": "```json\n{\"golf\": [{\"name\": \"ĐT Hải\", \"score\": [\"3\", \"1\", \"0\", \"0\", \"5\", \"1\", \"1\", \"1\", \"1\", \"14\", \"2\", \"1\", \"0\", \"0\", \"1\", \"0\", \"0\", \"2\", \"1\", \"7\", \"14\", \"21\"]}, {\"name\": \"NM Hải\", \"score\": [\"2\", \"3\", \"1\", \"1\", \"0\", \"1\", \"0\", \"2\", \"0\", \"10\", \"2\", \"0\", \"0\", \"1\", \"1\", \"2\", \"2\", \"1\", \"3\", \"11\", \"10\", \"21\"]}, {\"name\": \"NV Cường\", \"score\": [\"2\", \"3\", \"0\", \"1\", \"1\", \"4\", \"1\", \"4\", \"1\", \"17\", \"1\", \"2\", \"0\", \"2\", \"1\", \"2\", \"1\", \"4\", \"1\", \"14\", \"17\", \"31\"]}, {\"name\": \"NK Luật\", \"score\": [\"4\", \"0\", \"1\", \"2\", \"3\", \"0\", \"0\", \"1\", \"0\", \"11\", \"0\", \"1\", \"0\", \"0\", \"4\", \"1\", \"0\", \"0\", \"3\", \"9\", \"10\", \"20\"]}]}\n```"
-                    }
+                        "text": "```json\n{\n    \"golf\": [\n        {\"name\": \"Thọ (10)\", \"score\": [1, 0, 0, 1, 2, 1, 1, 1, 2, 9, 0, 2, 0, 6, 1, 1, 2, 1, 0, 13]},\n        {\"name\": \"Hậu (22)\", \"score\": [3, 0, 1, 2, 2, 1, 1, 1, 2, 13, 1, 1, 1, 1, -1, 1, 1, 1, 6]},\n        {\"name\": \"Minh (15)\", \"score\": [1, 2, 1, 2, 0, 1, 1, 1, 3, 12, 1, 4, 4, 2, 1, 4, 4, 0, 0, 20]},\n        {\"name\": \"Điểm (13)\", \"score\": [2, 3, 0, 1, 3, 0, 0, 0, 2, 11, 0, 1, 1, 1, 0, 2, 0, 1, 0, 6]}\n    ]\n}\n```"
+                    }                    
                 ]
             }
         ]
@@ -610,11 +850,11 @@
                 "content": [
                     {
                         "type": "image",
-                        "image": "train_data\\score_card_2\\IMG_9456.jpg"
+                        "image": "train_data/score_card_2/IMG_9467.jpg"
                     },
                     {
                         "type": "text",
-                        "text": "From this image, return json that has field list is the list of information (hand written text) that each element has field name is the name of player, score is the list of all scores of that player in format like this. The golf score is calculated like this, they hasve 9 front and 9 back scores. Remember that the each score would be from 0-9 but after 9 digits, which mean the 10th element is the sum of the last 9 scores, and the 20th element will be the sum of hole 11 to 19. for example the score will be [0, 1, 2, 1, 3, 2, 0, 0, 1, 11][{\"golf\": [{\"name\": \"\", \"score\": []}, {\"name\": \"\", \"score\": []}]These are examples: ```json\n[\n    {\n        \"golf\": [\n            {\"name\": \"T Anh\", \"score\": [2, 3, 1, 1, 2, 1, 1, 0, 3, 14]},\n            {\"name\": \"Tấn\", \"score\": [1, 0, 1, 1, 0, 1, 2, 2, 2, 10]},\n            {\"name\": \"A Phúc\", \"score\": [1, 0, 2, 1, 1, 2, 2, 2, 2, 13]},\n            {\"name\": \"A Tuấn\", \"score\": [2, 0, 1, 0, 0, 4, 3, 1, 4, 15]}\n        ]\n    }\n]\n```or ```json\n[\n    {\n        \"golf\": [\n            {\"name\": \"C Ngân\", \"score\": [2, 4, 3, 2, 2, 1, 1, 1, 2, 18]},\n            {\"name\": \"C Ngân\", \"score\": [2, 2, 1, 4, 0, 2, 2, 2, 2, 17]}\n        ]\n    }\n]\n```"
+                        "text": "From this image, return json that has field list is the list of information (hand written text) that each element has field name is the name of player, score is the list of all scores of that player in format like this. The golf score is calculated like this, they hasve 9 front and 9 back scores. Remember that the each score would be from 0-9 but after 9 digits, which mean the 10th element is the sum of the last 9 scores, and the 20th element will be the sum of hole 11 to 19. for example the score will be [0, 1, 2, 1, 3, 2, 0, 0, 1, 11][{\"golf\": [{\"name\": \"\", \"score\": []}, {\"name\": \"\", \"score\": []}]"
                     }
                 ]
             },
@@ -623,8 +863,8 @@
                 "content": [
                     {
                         "type": "text",
-                        "text": "```json\n{\"golf\": [{\"name\": \"Trung\", \"score\": [\"1\", \"1\", \"1\", \"1\", \"0\", \"1\", \"1\", \"1\", \"1\", \"8\", \"6\", \"16\", \"12\", \"10\", \"14\", \"2\", \"1\", \"8\", \"8\", \"4\", \"96\"]}, {\"name\": \"Kien\", \"score\": [\"2\", \"2\", \"0\", \"0\", \"2\", \"1\", \"3\", \"0\", \"2\", \"12\", \"1\", \"3\", \"4\", \"0\", \"1\", \"1\", \"0\", \"0\", \"2\", \"14\", \"46\"]}, {\"name\": \"Phuong\", \"score\": [\"1\", \"0\", \"2\", \"3\", \"1\", \"0\", \"1\", \"4\", \"1\", \"13\", \"3\", \"0\", \"1\", \"2\", \"0\", \"1\", \"0\", \"0\", \"4\", \"11\", \"47\"]}, {\"name\": \"Ngoc\", \"score\": [\"2\", \"1\", \"1\", \"1\", \"4\", \"0\", \"1\", \"2\", \"2\", \"14\", \"4\", \"1\", \"1\", \"0\", \"0\", \"0\", \"0\", \"1\", \"1\", \"9\", \"44\"]}]}\n```"
-                    }
+                        "text": "```json\n{\n    \"golf\": [\n        {\"name\": \"Hưng (18)\", \"score\": [1, 2, 1, 1, 2, 1, 0, 0, 1, 9, 1, 2, 1, 0, 0, 2, 1, 1, 1, 9]},\n        {\"name\": \"Tâm (26)\", \"score\": [0, 1, 1, 0, -1, 0, 0, 1, 0, 3, 1, 2, 1, 0, 4, 1, 0, 0, 0, 9]},\n        {\"name\": \"Bình (22)\", \"score\": [2, 1, 2, 1, 1, 0, 2, 3, 4, 16, 1, 1, 1, 2, 0, 1, 1, 0, 0, 7]},\n        {\"name\": \"Hà (13)\", \"score\": [1, 2, 1, 0, 0, 2, 1, 1, 1, 9, 1, 0, 1, -1, 1, 1, 2, 5]}\n    ]\n}\n```"
+                    }                    
                 ]
             }
         ]
@@ -640,11 +880,11 @@
                 "content": [
                     {
                         "type": "image",
-                        "image": "train_data\\score_card_2\\IMG_9457.JPG"
+                        "image": "train_data/score_card_2/IMG_9468.JPG"
                     },
                     {
                         "type": "text",
-                        "text": "From this image, return json that has field list is the list of information (hand written text) that each element has field name is the name of player, score is the list of all scores of that player in format like this. The golf score is calculated like this, they hasve 9 front and 9 back scores. Remember that the each score would be from 0-9 but after 9 digits, which mean the 10th element is the sum of the last 9 scores, and the 20th element will be the sum of hole 11 to 19. for example the score will be [0, 1, 2, 1, 3, 2, 0, 0, 1, 11][{\"golf\": [{\"name\": \"\", \"score\": []}, {\"name\": \"\", \"score\": []}]These are examples: ```json\n[\n    {\n        \"golf\": [\n            {\"name\": \"T Anh\", \"score\": [2, 3, 1, 1, 2, 1, 1, 0, 3, 14]},\n            {\"name\": \"Tấn\", \"score\": [1, 0, 1, 1, 0, 1, 2, 2, 2, 10]},\n            {\"name\": \"A Phúc\", \"score\": [1, 0, 2, 1, 1, 2, 2, 2, 2, 13]},\n            {\"name\": \"A Tuấn\", \"score\": [2, 0, 1, 0, 0, 4, 3, 1, 4, 15]}\n        ]\n    }\n]\n```or ```json\n[\n    {\n        \"golf\": [\n            {\"name\": \"C Ngân\", \"score\": [2, 4, 3, 2, 2, 1, 1, 1, 2, 18]},\n            {\"name\": \"C Ngân\", \"score\": [2, 2, 1, 4, 0, 2, 2, 2, 2, 17]}\n        ]\n    }\n]\n```"
+                        "text": "From this image, return json that has field list is the list of information (hand written text) that each element has field name is the name of player, score is the list of all scores of that player in format like this. The golf score is calculated like this, they hasve 9 front and 9 back scores. Remember that the each score would be from 0-9 but after 9 digits, which mean the 10th element is the sum of the last 9 scores, and the 20th element will be the sum of hole 11 to 19. for example the score will be [0, 1, 2, 1, 3, 2, 0, 0, 1, 11][{\"golf\": [{\"name\": \"\", \"score\": []}, {\"name\": \"\", \"score\": []}]"
                     }
                 ]
             },
@@ -653,8 +893,8 @@
                 "content": [
                     {
                         "type": "text",
-                        "text": "```json\n{\"golf\": [{\"name\": \"Phong\", \"score\": [\"7\", \"1\", \"1\", \"1\", \"3\", \"-1\", \"1\", \"1\", \"2\", \"10\", \"0\", \"3\", \"1\", \"2\", \"0\", \"0\", \"0\", \"0\", \"4\", \"14\", \"24\"]}, {\"name\": \"Truong\", \"score\": [\"(-1)\", \"1\", \"0\", \"1\", \"1\", \"0\", \"2\", \"1\", \"3\", \"9\", \"1\", \"3\", \"1\", \"0\", \"1\", \"0\", \"2\", \"2\", \"3\", \"9\", \"17\"]}, {\"name\": \"Kieu\", \"score\": [\"E\", \"2\", \"0\", \"1\", \"0\", \"2\", \"1\", \"1\", \"0\", \"7\", \"1\", \"2\", \"1\", \"1\", \"0\", \"1\", \"0\", \"2\", \"2\", \"9\", \"19\"]}, {\"name\": \"Nhat\", \"score\": [\"+\", \"0\", \"2\", \"0\", \"2\", \"1\", \"1\", \"0\", \"1\", \"7\", \"0\", \"1\", \"0\", \"1\", \"1\", \"0\", \"2\", \"0\", \"0\", \"6\", \"15\"]}]}\n```"
-                    }
+                        "text": "```json\n{\n    \"golf\": [\n        {\"name\": \"Minh (14)\", \"score\": [0, 1, 1, 2, 0, 1, 1, 0, 1, 7, 2, 0, 2, 2, 1, 1, 2, 0, 1, 11]},\n        {\"name\": \"Thành (21)\", \"score\": [2, 1, 0, 2, 2, 1, 2, 0, 1, 11, 2, 1, 0, 3, 2, 2, 2, 1, 2, 15]},\n        {\"name\": \"Bằng (18)\", \"score\": [0, 0, 1, 1, 0, 3, -1, 1, 4, 9, 1, 3, 2, 1, 0, 3, 0, 2, 1, 13]},\n        {\"name\": \"Nhất (13)\", \"score\": [0, 0, 0, 1, 0, 2, 1, 2, 1, 7, 1, 2, 2, 1, 2, 3, 1, 0, 0, 12]}\n    ]\n}\n```"
+                    }                    
                 ]
             }
         ]
@@ -670,11 +910,11 @@
                 "content": [
                     {
                         "type": "image",
-                        "image": "train_data\\score_card_2\\IMG_9458.jpg"
+                        "image": "train_data/score_card_2/IMG_9469.jpg"
                     },
                     {
                         "type": "text",
-                        "text": "From this image, return json that has field list is the list of information (hand written text) that each element has field name is the name of player, score is the list of all scores of that player in format like this. The golf score is calculated like this, they hasve 9 front and 9 back scores. Remember that the each score would be from 0-9 but after 9 digits, which mean the 10th element is the sum of the last 9 scores, and the 20th element will be the sum of hole 11 to 19. for example the score will be [0, 1, 2, 1, 3, 2, 0, 0, 1, 11][{\"golf\": [{\"name\": \"\", \"score\": []}, {\"name\": \"\", \"score\": []}]These are examples: ```json\n[\n    {\n        \"golf\": [\n            {\"name\": \"T Anh\", \"score\": [2, 3, 1, 1, 2, 1, 1, 0, 3, 14]},\n            {\"name\": \"Tấn\", \"score\": [1, 0, 1, 1, 0, 1, 2, 2, 2, 10]},\n            {\"name\": \"A Phúc\", \"score\": [1, 0, 2, 1, 1, 2, 2, 2, 2, 13]},\n            {\"name\": \"A Tuấn\", \"score\": [2, 0, 1, 0, 0, 4, 3, 1, 4, 15]}\n        ]\n    }\n]\n```or ```json\n[\n    {\n        \"golf\": [\n            {\"name\": \"C Ngân\", \"score\": [2, 4, 3, 2, 2, 1, 1, 1, 2, 18]},\n            {\"name\": \"C Ngân\", \"score\": [2, 2, 1, 4, 0, 2, 2, 2, 2, 17]}\n        ]\n    }\n]\n```"
+                        "text": "From this image, return json that has field list is the list of information (hand written text) that each element has field name is the name of player, score is the list of all scores of that player in format like this. The golf score is calculated like this, they hasve 9 front and 9 back scores. Remember that the each score would be from 0-9 but after 9 digits, which mean the 10th element is the sum of the last 9 scores, and the 20th element will be the sum of hole 11 to 19. for example the score will be [0, 1, 2, 1, 3, 2, 0, 0, 1, 11][{\"golf\": [{\"name\": \"\", \"score\": []}, {\"name\": \"\", \"score\": []}]"
                     }
                 ]
             },
@@ -683,8 +923,8 @@
                 "content": [
                     {
                         "type": "text",
-                        "text": "```json\n{\"golf\": [{\"name\": \"Ha\", \"score\": [4, 2, 2, 2, 1, 1, 0, 0, 1, 13, 0, 2, 1, 0, 0, 2, 3, 2, 4, 14]}, {\"name\": \"kien\", \"score\": [4, 3, 4, 2, 1, 1, 1, 1, 2, 19, 0, 4, 1, 0, 2, 1, 1, 2, 1, 11]}, {\"name\": \"Cuong\", \"score\": [2, 0, 2, 1, 3, 1, 2, 1, 4, 16, 2, 2, 3, 0, 1, 2, 1, 1, 2, 14]}]}\n```"
-                    }
+                        "text": "```json\n{\n    \"golf\": [\n        {\"name\": \"Nghĩa\", \"score\": [3, 1, 0, 1, 2, 1, 2, 0, 2, 12, 3, 1, 1, 4, 0, 5, 3, 0, 3, 20]},\n        {\"name\": \"Minh\", \"score\": [0, 2, 0, 1, 2, 2, 1, 1, 1, 10, 3, 0, 1, 2, 1, 3, 1, 2, 1, 14]},\n        {\"name\": \"Trí\", \"score\": [1, 1, 0, 1, 5, -1, 2, 0, 1, 11, 1, 2, 1, 0, 1, 1, 2, 1, 0, 9]},\n        {\"name\": \"Hùng\", \"score\": [0, 1, 1, 2, 3, 0, 1, 2, 1, 11, 3, 0, 1, 2, 2, 1, 1, 0, 1, 11]}\n    ]\n}\n```"
+                    }                    
                 ]
             }
         ]
@@ -700,11 +940,11 @@
                 "content": [
                     {
                         "type": "image",
-                        "image": "train_data\\score_card_2\\IMG_9459.jpg"
+                        "image": "train_data/score_card_2/IMG_9470.JPG"
                     },
                     {
                         "type": "text",
-                        "text": "From this image, return json that has field list is the list of information (hand written text) that each element has field name is the name of player, score is the list of all scores of that player in format like this. The golf score is calculated like this, they hasve 9 front and 9 back scores. Remember that the each score would be from 0-9 but after 9 digits, which mean the 10th element is the sum of the last 9 scores, and the 20th element will be the sum of hole 11 to 19. for example the score will be [0, 1, 2, 1, 3, 2, 0, 0, 1, 11][{\"golf\": [{\"name\": \"\", \"score\": []}, {\"name\": \"\", \"score\": []}]These are examples: ```json\n[\n    {\n        \"golf\": [\n            {\"name\": \"T Anh\", \"score\": [2, 3, 1, 1, 2, 1, 1, 0, 3, 14]},\n            {\"name\": \"Tấn\", \"score\": [1, 0, 1, 1, 0, 1, 2, 2, 2, 10]},\n            {\"name\": \"A Phúc\", \"score\": [1, 0, 2, 1, 1, 2, 2, 2, 2, 13]},\n            {\"name\": \"A Tuấn\", \"score\": [2, 0, 1, 0, 0, 4, 3, 1, 4, 15]}\n        ]\n    }\n]\n```or ```json\n[\n    {\n        \"golf\": [\n            {\"name\": \"C Ngân\", \"score\": [2, 4, 3, 2, 2, 1, 1, 1, 2, 18]},\n            {\"name\": \"C Ngân\", \"score\": [2, 2, 1, 4, 0, 2, 2, 2, 2, 17]}\n        ]\n    }\n]\n```"
+                        "text": "From this image, return json that has field list is the list of information (hand written text) that each element has field name is the name of player, score is the list of all scores of that player in format like this. The golf score is calculated like this, they hasve 9 front and 9 back scores. Remember that the each score would be from 0-9 but after 9 digits, which mean the 10th element is the sum of the last 9 scores, and the 20th element will be the sum of hole 11 to 19. for example the score will be [0, 1, 2, 1, 3, 2, 0, 0, 1, 11][{\"golf\": [{\"name\": \"\", \"score\": []}, {\"name\": \"\", \"score\": []}]"
                     }
                 ]
             },
@@ -713,8 +953,8 @@
                 "content": [
                     {
                         "type": "text",
-                        "text": "```json\n{\"golf\": [{\"name\": \"Le Trung\", \"score\": [2, 2, 1, 1, 0, 2, 3, 2, 2, 15, 6, 5, 5, 5, 5, 4, 5, 8, 48]}, {\"name\": \"D. NGUYEN QUOC KHÁNH\", \"score\": [4, 0, 6, 3, 1, 2, 1, 1, 2, 20, 2, 1, 1, 0, 3, 3, 1, 1, 2, 12, 32]}, {\"name\": \"Nguyen Thanh Binh\", \"score\": [7, 3, 0, 6, 1, 6, 5, 6, 4, 38, 5, 8, 3, 0, 5, 3, 4, 1, 1, 6, 44]}, {\"name\": \"Vu Manh Cuong\", \"score\": [2, 0, 2, 2, 1, 3, 1, 2, 1, 14, 6, 3, 6, 7, 5, 7, 5, 5, 6, 50, 100]}]}\n```"
-                    }
+                        "text": "```json\n[\n  {\n    \"golf\": [\n      {\n        \"name\": \"Hải (27)\",\n        \"score\": [0, 3, 1, 1, 0, 0, 2, 1, 2, 10, 3, 5, 2, 3, 2, 1, 1, 1, 5, 23]\n      },\n      {\n        \"name\": \"Quân (27)\",\n        \"score\": [2, 1, 1, 2, 2, 2, 2, 3, 2, 17, 1, 2, 1, 5, 0, 3, 2, 2, 0, 16]\n      },\n      {\n        \"name\": \"Dung (30)\",\n        \"score\": [4, 3, 0, 2, 3, 1, 1, 4, 1, 19, 0, 0, 1, 2, 2, 2, 1, 2, 0, 10]\n      },\n      {\n        \"name\": \"Nam\",\n        \"score\": [3, 1, 2, 3, 2, 5, 2, 1, 2, 21, 0, 2, 1, 4, 2, 1, 1, 4, 0, 15]\n      }\n    ]\n  }\n]\n```"
+                    }                    
                 ]
             }
         ]
@@ -730,11 +970,11 @@
                 "content": [
                     {
                         "type": "image",
-                        "image": "train_data\\score_card_2\\IMG_9460.jpg"
+                        "image": "train_data/score_card_2/IMG_9471.JPG"
                     },
                     {
                         "type": "text",
-                        "text": "From this image, return json that has field list is the list of information (hand written text) that each element has field name is the name of player, score is the list of all scores of that player in format like this. The golf score is calculated like this, they hasve 9 front and 9 back scores. Remember that the each score would be from 0-9 but after 9 digits, which mean the 10th element is the sum of the last 9 scores, and the 20th element will be the sum of hole 11 to 19. for example the score will be [0, 1, 2, 1, 3, 2, 0, 0, 1, 11][{\"golf\": [{\"name\": \"\", \"score\": []}, {\"name\": \"\", \"score\": []}]These are examples: ```json\n[\n    {\n        \"golf\": [\n            {\"name\": \"T Anh\", \"score\": [2, 3, 1, 1, 2, 1, 1, 0, 3, 14]},\n            {\"name\": \"Tấn\", \"score\": [1, 0, 1, 1, 0, 1, 2, 2, 2, 10]},\n            {\"name\": \"A Phúc\", \"score\": [1, 0, 2, 1, 1, 2, 2, 2, 2, 13]},\n            {\"name\": \"A Tuấn\", \"score\": [2, 0, 1, 0, 0, 4, 3, 1, 4, 15]}\n        ]\n    }\n]\n```or ```json\n[\n    {\n        \"golf\": [\n            {\"name\": \"C Ngân\", \"score\": [2, 4, 3, 2, 2, 1, 1, 1, 2, 18]},\n            {\"name\": \"C Ngân\", \"score\": [2, 2, 1, 4, 0, 2, 2, 2, 2, 17]}\n        ]\n    }\n]\n```"
+                        "text": "From this image, return json that has field list is the list of information (hand written text) that each element has field name is the name of player, score is the list of all scores of that player in format like this. The golf score is calculated like this, they hasve 9 front and 9 back scores. Remember that the each score would be from 0-9 but after 9 digits, which mean the 10th element is the sum of the last 9 scores, and the 20th element will be the sum of hole 11 to 19. for example the score will be [0, 1, 2, 1, 3, 2, 0, 0, 1, 11][{\"golf\": [{\"name\": \"\", \"score\": []}, {\"name\": \"\", \"score\": []}]"
                     }
                 ]
             },
@@ -743,8 +983,8 @@
                 "content": [
                     {
                         "type": "text",
-                        "text": "```json\n{\"golf\": [{\"name\": \"Tuấn\", \"score\": [0, 1, 1, 1, 4, 1, 3, 1, 1, 11]}, {\"name\": \"Nguyên\", \"score\": [2, 1, 1, 1, 0, 0, 2, 9, 2, 17]}, {\"name\": \"Tuy\", \"score\": [2, 1, 0, 3, 1, 1, 4, 2, 3, 17]}, {\"name\": \"Sơn\", \"score\": [2, 2, 2, 1, 1, 3, 1, 1, 3, 13]}]}\n```"
-                    }
+                        "text": "```json\n[\n  {\n    \"golf\": [\n      {\n        \"name\": \"A. Đồng\",\n        \"score\": [2, 1, 1, 2, 0, 2, 0, 1, 1, 10, 2, 2, 1, 0, 0, 2, 2, 0, 3, 12]\n      },\n      {\n        \"name\": \"A. Thơ\",\n        \"score\": [1, 0, 2, 0, 1, 0, 1, 1, 1, 7, 1, 1, 2, 1, -1, 3, 0, 1, 4, 12]\n      },\n      {\n        \"name\": \"Trung\",\n        \"score\": [6, 3, 2, 1, 3, 3, 0, 3, -1, 20, 2, 2, 1, 2, 0, 1, 1, 0, 1, 10]\n      },\n      {\n        \"name\": \"Phan\",\n        \"score\": [4, 3, 5, 1, 1, 2, 2, 1, -1, 18, 2, 2, 0, 0, 0, 2, 1, 0, 2, 9]\n      }\n    ]\n  }\n]\n```"
+                    }                     
                 ]
             }
         ]
@@ -760,11 +1000,11 @@
                 "content": [
                     {
                         "type": "image",
-                        "image": "train_data\\score_card_2\\IMG_9461.jpg"
+                        "image": "train_data/score_card_2/IMG_9474.JPG"
                     },
                     {
                         "type": "text",
-                        "text": "From this image, return json that has field list is the list of information (hand written text) that each element has field name is the name of player, score is the list of all scores of that player in format like this. The golf score is calculated like this, they hasve 9 front and 9 back scores. Remember that the each score would be from 0-9 but after 9 digits, which mean the 10th element is the sum of the last 9 scores, and the 20th element will be the sum of hole 11 to 19. for example the score will be [0, 1, 2, 1, 3, 2, 0, 0, 1, 11][{\"golf\": [{\"name\": \"\", \"score\": []}, {\"name\": \"\", \"score\": []}]These are examples: ```json\n[\n    {\n        \"golf\": [\n            {\"name\": \"T Anh\", \"score\": [2, 3, 1, 1, 2, 1, 1, 0, 3, 14]},\n            {\"name\": \"Tấn\", \"score\": [1, 0, 1, 1, 0, 1, 2, 2, 2, 10]},\n            {\"name\": \"A Phúc\", \"score\": [1, 0, 2, 1, 1, 2, 2, 2, 2, 13]},\n            {\"name\": \"A Tuấn\", \"score\": [2, 0, 1, 0, 0, 4, 3, 1, 4, 15]}\n        ]\n    }\n]\n```or ```json\n[\n    {\n        \"golf\": [\n            {\"name\": \"C Ngân\", \"score\": [2, 4, 3, 2, 2, 1, 1, 1, 2, 18]},\n            {\"name\": \"C Ngân\", \"score\": [2, 2, 1, 4, 0, 2, 2, 2, 2, 17]}\n        ]\n    }\n]\n```"
+                        "text": "From this image, return json that has field list is the list of information (hand written text) that each element has field name is the name of player, score is the list of all scores of that player in format like this. The golf score is calculated like this, they hasve 9 front and 9 back scores. Remember that the each score would be from 0-9 but after 9 digits, which mean the 10th element is the sum of the last 9 scores, and the 20th element will be the sum of hole 11 to 19. for example the score will be [0, 1, 2, 1, 3, 2, 0, 0, 1, 11][{\"golf\": [{\"name\": \"\", \"score\": []}, {\"name\": \"\", \"score\": []}]"
                     }
                 ]
             },
@@ -773,8 +1013,8 @@
                 "content": [
                     {
                         "type": "text",
-                        "text": "```json\n{\"golf\": [{\"name\": null, \"score\": [\"0\", \"4\", \"3\", \"5\", \"6\", \"5\", \"8\", \"5\", \"6\", \"46\", \"2\", \"6\", \"5\", \"4\", \"4\", \"6\", \"3\", \"3\", \"5\", \"41\"]}, {\"name\": null, \"score\": [\"0\", \"1\", \"1\", \"1\", \"4\", \"1\", \"3\", \"0\", \"10\", \"22\", \"2\", \"0\", \"1\", \"0\", \"0\", \"2\", \"0\", \"△\", \"1\", \"15\"]}]}\n```"
-                    }
+                        "text": "```json\n{\n    \"golf\": [\n        {\"name\": \"A. Hải (21)\", \"score\": [0, 2, 0, 2, -1, 1, 1, 0, 3, 8, 2, 1, 3, 2, 2, 1, 2, 2, 2, 17]},\n        {\"name\": \"A. Nguyên (23)\", \"score\": [1, 0, 1, 0, 0, 1, 3, 0, 0, 6, 3, 0, 0, 1, 1, 2, 1, 0, 1, 9]},\n        {\"name\": \"A. Trung (26)\", \"score\": [2, 2, 3, 2, 2, 3, 1, 1, 3, 19, 2, 1, 1, 0, 0, 0, 3, 1, 1, 9]},\n        {\"name\": \"A. Lợi (21)\", \"score\": [2, 2, 2, 3, 2, 4, 4, 2, 2, 23, 3, 1, 1, 2, 3, 1, 3, 2, 1, 17]}\n    ]\n}\n```"
+                    }                    
                 ]
             }
         ]
@@ -790,11 +1030,11 @@
                 "content": [
                     {
                         "type": "image",
-                        "image": "train_data\\score_card_2\\IMG_9462.JPG"
+                        "image": "train_data/score_card_2/IMG_9475.JPG"
                     },
                     {
                         "type": "text",
-                        "text": "From this image, return json that has field list is the list of information (hand written text) that each element has field name is the name of player, score is the list of all scores of that player in format like this. The golf score is calculated like this, they hasve 9 front and 9 back scores. Remember that the each score would be from 0-9 but after 9 digits, which mean the 10th element is the sum of the last 9 scores, and the 20th element will be the sum of hole 11 to 19. for example the score will be [0, 1, 2, 1, 3, 2, 0, 0, 1, 11][{\"golf\": [{\"name\": \"\", \"score\": []}, {\"name\": \"\", \"score\": []}]These are examples: ```json\n[\n    {\n        \"golf\": [\n            {\"name\": \"T Anh\", \"score\": [2, 3, 1, 1, 2, 1, 1, 0, 3, 14]},\n            {\"name\": \"Tấn\", \"score\": [1, 0, 1, 1, 0, 1, 2, 2, 2, 10]},\n            {\"name\": \"A Phúc\", \"score\": [1, 0, 2, 1, 1, 2, 2, 2, 2, 13]},\n            {\"name\": \"A Tuấn\", \"score\": [2, 0, 1, 0, 0, 4, 3, 1, 4, 15]}\n        ]\n    }\n]\n```or ```json\n[\n    {\n        \"golf\": [\n            {\"name\": \"C Ngân\", \"score\": [2, 4, 3, 2, 2, 1, 1, 1, 2, 18]},\n            {\"name\": \"C Ngân\", \"score\": [2, 2, 1, 4, 0, 2, 2, 2, 2, 17]}\n        ]\n    }\n]\n```"
+                        "text": "From this image, return json that has field list is the list of information (hand written text) that each element has field name is the name of player, score is the list of all scores of that player in format like this. The golf score is calculated like this, they hasve 9 front and 9 back scores. Remember that the each score would be from 0-9 but after 9 digits, which mean the 10th element is the sum of the last 9 scores, and the 20th element will be the sum of hole 11 to 19. for example the score will be [0, 1, 2, 1, 3, 2, 0, 0, 1, 11][{\"golf\": [{\"name\": \"\", \"score\": []}, {\"name\": \"\", \"score\": []}]"
                     }
                 ]
             },
@@ -803,308 +1043,8 @@
                 "content": [
                     {
                         "type": "text",
-                        "text": "```json\n{\"golf\": [{\"name\": \"Dy\", \"score\": [2, 2, 4, 3, 1, 2, 0, 0, 2, 16, 2, 3, 0, 1, 1, 4, 1, 0, 2, 14]}, {\"name\": \"Duny\", \"score\": [1, 0, 1, 2, 2, 2, 0, 1, 2, 12, 3, 2, 2, 1, 0, 1, 0, 3, 3, 15]}, {\"name\": \"Son\", \"score\": [2, 2, 1, 2, 3, 3, 1, 0, 2, 16, 2, 2, 2, 1, 3, 3, 3, 1, 2, 22]}, {\"name\": \"Birthday\", \"score\": [5, 2, 4, 6, 3, 4, 2, 1, 6, 33, 8, 3, 3, 2, 4, 3, 1, 1, 5, 32]}]}\n```"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "messages": [
-            {
-                "role": "system",
-                "content": "You are a helpful assistant that responds in JSON format with the golf score card information. Do not add any annotations there. Remember to close any bracket."
-            },
-            {
-                "role": "user",
-                "content": [
-                    {
-                        "type": "image",
-                        "image": "train_data\\score_card_2\\IMG_9463.JPG"
-                    },
-                    {
-                        "type": "text",
-                        "text": "From this image, return json that has field list is the list of information (hand written text) that each element has field name is the name of player, score is the list of all scores of that player in format like this. The golf score is calculated like this, they hasve 9 front and 9 back scores. Remember that the each score would be from 0-9 but after 9 digits, which mean the 10th element is the sum of the last 9 scores, and the 20th element will be the sum of hole 11 to 19. for example the score will be [0, 1, 2, 1, 3, 2, 0, 0, 1, 11][{\"golf\": [{\"name\": \"\", \"score\": []}, {\"name\": \"\", \"score\": []}]These are examples: ```json\n[\n    {\n        \"golf\": [\n            {\"name\": \"T Anh\", \"score\": [2, 3, 1, 1, 2, 1, 1, 0, 3, 14]},\n            {\"name\": \"Tấn\", \"score\": [1, 0, 1, 1, 0, 1, 2, 2, 2, 10]},\n            {\"name\": \"A Phúc\", \"score\": [1, 0, 2, 1, 1, 2, 2, 2, 2, 13]},\n            {\"name\": \"A Tuấn\", \"score\": [2, 0, 1, 0, 0, 4, 3, 1, 4, 15]}\n        ]\n    }\n]\n```or ```json\n[\n    {\n        \"golf\": [\n            {\"name\": \"C Ngân\", \"score\": [2, 4, 3, 2, 2, 1, 1, 1, 2, 18]},\n            {\"name\": \"C Ngân\", \"score\": [2, 2, 1, 4, 0, 2, 2, 2, 2, 17]}\n        ]\n    }\n]\n```"
-                    }
-                ]
-            },
-            {
-                "role": "assistant",
-                "content": [
-                    {
-                        "type": "text",
-                        "text": "```json\n[{\"golf\": [{\"name\": \"TRƯỜNG\", \"score\": [\"1\", \"2\", \"4\", \"0\", \"1\", \"0\", \"1\", \"1\", \"0\", \"10\"]}, {\"name\": \"TÂM\", \"score\": [\"1\", \"2\", \"5\", \"3\", \"1\", \"1\", \"1\", \"1\", \"0\", \"15\"]}, {\"name\": \"LÂM\", \"score\": [\"3\", \"2\", \"0\", \"0\", \"1\", \"1\", \"2\", \"1\", \"0\", \"10\"]}, {\"name\": \"LÊ\", \"score\": [\"1\", \"3\", \"0\", \"1\", \"1\", \"0\", \"0\", \"0\", \"0\", \"6\"]}]}, {\"golf\": [{\"name\": \"Thủy\", \"score\": [\"4\", \"5\", \"5\", \"4\", \"3\", \"4\", \"4\", \"3\", \"4\", \"31\"]}, {\"name\": \"Tâm\", \"score\": [\"1\", \"0\", \"5\", \"6\", \"3\", \"1\", \"1\", \"1\", \"1\", \"19\"]}, {\"name\": \"Lâm\", \"score\": [\"4\", \"1\", \"0\", \"1\", \"1\", \"1\", \"1\", \"4\", \"0\", \"13\"]}, {\"name\": \"Lê\", \"score\": [\"1\", \"1\", \"2\", \"3\", \"1\", \"1\", \"1\", \"4\", \"0\", \"14\"]}]}]\n```"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "messages": [
-            {
-                "role": "system",
-                "content": "You are a helpful assistant that responds in JSON format with the golf score card information. Do not add any annotations there. Remember to close any bracket."
-            },
-            {
-                "role": "user",
-                "content": [
-                    {
-                        "type": "image",
-                        "image": "train_data\\score_card_2\\IMG_9465.jpg"
-                    },
-                    {
-                        "type": "text",
-                        "text": "From this image, return json that has field list is the list of information (hand written text) that each element has field name is the name of player, score is the list of all scores of that player in format like this. The golf score is calculated like this, they hasve 9 front and 9 back scores. Remember that the each score would be from 0-9 but after 9 digits, which mean the 10th element is the sum of the last 9 scores, and the 20th element will be the sum of hole 11 to 19. for example the score will be [0, 1, 2, 1, 3, 2, 0, 0, 1, 11][{\"golf\": [{\"name\": \"\", \"score\": []}, {\"name\": \"\", \"score\": []}]These are examples: ```json\n[\n    {\n        \"golf\": [\n            {\"name\": \"T Anh\", \"score\": [2, 3, 1, 1, 2, 1, 1, 0, 3, 14]},\n            {\"name\": \"Tấn\", \"score\": [1, 0, 1, 1, 0, 1, 2, 2, 2, 10]},\n            {\"name\": \"A Phúc\", \"score\": [1, 0, 2, 1, 1, 2, 2, 2, 2, 13]},\n            {\"name\": \"A Tuấn\", \"score\": [2, 0, 1, 0, 0, 4, 3, 1, 4, 15]}\n        ]\n    }\n]\n```or ```json\n[\n    {\n        \"golf\": [\n            {\"name\": \"C Ngân\", \"score\": [2, 4, 3, 2, 2, 1, 1, 1, 2, 18]},\n            {\"name\": \"C Ngân\", \"score\": [2, 2, 1, 4, 0, 2, 2, 2, 2, 17]}\n        ]\n    }\n]\n```"
-                    }
-                ]
-            },
-            {
-                "role": "assistant",
-                "content": [
-                    {
-                        "type": "text",
-                        "text": "```json\n[{\"golf\": [{\"name\": \"T Anh\", \"score\": [1, 1, 0, 0, 2, 1, 1, 1, 1, 8]}, {\"name\": \"T Anh\", \"score\": [2, 0, 0, 4, 3, 2, 1, 1, 2, 15]}, {\"name\": \"Tấn\", \"score\": [3, 2, 2, 4, 0, 2, 1, 1, 1, 16]}, {\"name\": \"Tấn\", \"score\": [4, 0, 0, 2, 2, 0, 2, 1, 3, 14]}, {\"name\": \"Huy\", \"score\": [3, 0, 1, 0, 3, 4, 1, 1, 4, 17]}, {\"name\": \"Huy\", \"score\": [0, 2, 1, 1, 1, 0, 0, 1, 0, 6]}, {\"name\": \"Duy\", \"score\": [1, 1, 0, 0, 2, 3, 2, 0, 1, 10]}, {\"name\": \"Duy\", \"score\": [0, 1, 1, 1, 1, 1, 1, 1, 1, 8]}]}]\n```"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "messages": [
-            {
-                "role": "system",
-                "content": "You are a helpful assistant that responds in JSON format with the golf score card information. Do not add any annotations there. Remember to close any bracket."
-            },
-            {
-                "role": "user",
-                "content": [
-                    {
-                        "type": "image",
-                        "image": "train_data\\score_card_2\\IMG_9466.jpg"
-                    },
-                    {
-                        "type": "text",
-                        "text": "From this image, return json that has field list is the list of information (hand written text) that each element has field name is the name of player, score is the list of all scores of that player in format like this. The golf score is calculated like this, they hasve 9 front and 9 back scores. Remember that the each score would be from 0-9 but after 9 digits, which mean the 10th element is the sum of the last 9 scores, and the 20th element will be the sum of hole 11 to 19. for example the score will be [0, 1, 2, 1, 3, 2, 0, 0, 1, 11][{\"golf\": [{\"name\": \"\", \"score\": []}, {\"name\": \"\", \"score\": []}]These are examples: ```json\n[\n    {\n        \"golf\": [\n            {\"name\": \"T Anh\", \"score\": [2, 3, 1, 1, 2, 1, 1, 0, 3, 14]},\n            {\"name\": \"Tấn\", \"score\": [1, 0, 1, 1, 0, 1, 2, 2, 2, 10]},\n            {\"name\": \"A Phúc\", \"score\": [1, 0, 2, 1, 1, 2, 2, 2, 2, 13]},\n            {\"name\": \"A Tuấn\", \"score\": [2, 0, 1, 0, 0, 4, 3, 1, 4, 15]}\n        ]\n    }\n]\n```or ```json\n[\n    {\n        \"golf\": [\n            {\"name\": \"C Ngân\", \"score\": [2, 4, 3, 2, 2, 1, 1, 1, 2, 18]},\n            {\"name\": \"C Ngân\", \"score\": [2, 2, 1, 4, 0, 2, 2, 2, 2, 17]}\n        ]\n    }\n]\n```"
-                    }
-                ]
-            },
-            {
-                "role": "assistant",
-                "content": [
-                    {
-                        "type": "text",
-                        "text": "```json\n{\"golf\": [{\"name\": \"Thơ\", \"score\": [\"1\", \"0\", \"0\", \"1\", \"2\", \"1\", \"1\", \"1\", \"2\", \"9\", \"0\", \"2\", \"0\", \"6\", \"1\", \"1\", \"2\", \"1\", \"0\", \"13\"]}, {\"name\": \"Hải\", \"score\": [\"2\", \"3\", \"0\", \"1\", \"2\", \"1\", \"1\", \"1\", \"1\", \"13\", \"1\", \"1\", \"1\", \"1\", \"1\", \"1\", \"1\", \"1\", \"1\", \"13\"]}]}\n```"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "messages": [
-            {
-                "role": "system",
-                "content": "You are a helpful assistant that responds in JSON format with the golf score card information. Do not add any annotations there. Remember to close any bracket."
-            },
-            {
-                "role": "user",
-                "content": [
-                    {
-                        "type": "image",
-                        "image": "train_data\\score_card_2\\IMG_9467.jpg"
-                    },
-                    {
-                        "type": "text",
-                        "text": "From this image, return json that has field list is the list of information (hand written text) that each element has field name is the name of player, score is the list of all scores of that player in format like this. The golf score is calculated like this, they hasve 9 front and 9 back scores. Remember that the each score would be from 0-9 but after 9 digits, which mean the 10th element is the sum of the last 9 scores, and the 20th element will be the sum of hole 11 to 19. for example the score will be [0, 1, 2, 1, 3, 2, 0, 0, 1, 11][{\"golf\": [{\"name\": \"\", \"score\": []}, {\"name\": \"\", \"score\": []}]These are examples: ```json\n[\n    {\n        \"golf\": [\n            {\"name\": \"T Anh\", \"score\": [2, 3, 1, 1, 2, 1, 1, 0, 3, 14]},\n            {\"name\": \"Tấn\", \"score\": [1, 0, 1, 1, 0, 1, 2, 2, 2, 10]},\n            {\"name\": \"A Phúc\", \"score\": [1, 0, 2, 1, 1, 2, 2, 2, 2, 13]},\n            {\"name\": \"A Tuấn\", \"score\": [2, 0, 1, 0, 0, 4, 3, 1, 4, 15]}\n        ]\n    }\n]\n```or ```json\n[\n    {\n        \"golf\": [\n            {\"name\": \"C Ngân\", \"score\": [2, 4, 3, 2, 2, 1, 1, 1, 2, 18]},\n            {\"name\": \"C Ngân\", \"score\": [2, 2, 1, 4, 0, 2, 2, 2, 2, 17]}\n        ]\n    }\n]\n```"
-                    }
-                ]
-            },
-            {
-                "role": "assistant",
-                "content": [
-                    {
-                        "type": "text",
-                        "text": "```json\n{\"golf\": [{\"name\": \"H\\u1eebng\", \"score\": [\"1\", \"2\", \"1\", \"1\", \"2\", \"1\", \"0\", \"0\", \"1\", \"9\"]}, {\"name\": \"T\\u00e2m\", \"score\": [\"1\", \"2\", \"1\", \"1\", \"0\", \"1\", \"1\", \"0\", \"0\", \"7\"]}, {\"name\": \"B\\u1ea3n\", \"score\": [\"2\", \"1\", \"2\", \"1\", \"1\", \"0\", \"2\", \"3\", \"4\", \"16\"]}, {\"name\": \"H\\u1eef\", \"score\": [\"1\", \"2\", \"1\", \"0\", \"0\", \"2\", \"1\", \"1\", \"1\", \"9\"]}, {\"name\": \"Huy\", \"score\": [\"1\", \"2\", \"1\", \"0\", \"0\", \"2\", \"1\", \"1\", \"1\", \"9\"]}, {\"name\": \"T\\u00e2m\", \"score\": [\"1\", \"2\", \"1\", \"0\", \"1\", \"1\", \"1\", \"0\", \"0\", \"7\"]}, {\"name\": \"B\\u1ea3n\", \"score\": [\"1\", \"1\", \"1\", \"1\", \"2\", \"0\", \"1\", \"1\", \"0\", \"8\"]}, {\"name\": \"H\\u1eef\", \"score\": [\"1\", \"0\", \"1\", \"0\", \"1\", \"1\", \"2\", \"0\", \"0\", \"6\"]}]}\n```"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "messages": [
-            {
-                "role": "system",
-                "content": "You are a helpful assistant that responds in JSON format with the golf score card information. Do not add any annotations there. Remember to close any bracket."
-            },
-            {
-                "role": "user",
-                "content": [
-                    {
-                        "type": "image",
-                        "image": "train_data\\score_card_2\\IMG_9468.JPG"
-                    },
-                    {
-                        "type": "text",
-                        "text": "From this image, return json that has field list is the list of information (hand written text) that each element has field name is the name of player, score is the list of all scores of that player in format like this. The golf score is calculated like this, they hasve 9 front and 9 back scores. Remember that the each score would be from 0-9 but after 9 digits, which mean the 10th element is the sum of the last 9 scores, and the 20th element will be the sum of hole 11 to 19. for example the score will be [0, 1, 2, 1, 3, 2, 0, 0, 1, 11][{\"golf\": [{\"name\": \"\", \"score\": []}, {\"name\": \"\", \"score\": []}]These are examples: ```json\n[\n    {\n        \"golf\": [\n            {\"name\": \"T Anh\", \"score\": [2, 3, 1, 1, 2, 1, 1, 0, 3, 14]},\n            {\"name\": \"Tấn\", \"score\": [1, 0, 1, 1, 0, 1, 2, 2, 2, 10]},\n            {\"name\": \"A Phúc\", \"score\": [1, 0, 2, 1, 1, 2, 2, 2, 2, 13]},\n            {\"name\": \"A Tuấn\", \"score\": [2, 0, 1, 0, 0, 4, 3, 1, 4, 15]}\n        ]\n    }\n]\n```or ```json\n[\n    {\n        \"golf\": [\n            {\"name\": \"C Ngân\", \"score\": [2, 4, 3, 2, 2, 1, 1, 1, 2, 18]},\n            {\"name\": \"C Ngân\", \"score\": [2, 2, 1, 4, 0, 2, 2, 2, 2, 17]}\n        ]\n    }\n]\n```"
-                    }
-                ]
-            },
-            {
-                "role": "assistant",
-                "content": [
-                    {
-                        "type": "text",
-                        "text": "```json\n{\"golf\": [{\"name\": \"Minh\", \"score\": [\"0\", \"1\", \"1\", \"2\", \"0\", \"1\", \"1\", \"0\", \"1\", \"7\", \"2\", \"0\", \"2\", \"2\", \"1\", \"1\", \"1\", \"2\", \"0\", \"11\", \"18\", \"+4\"]}, {\"name\": \"Th\\u1ea3nh\", \"score\": [\"2\", \"1\", \"0\", \"2\", \"1\", \"1\", \"2\", \"0\", \"1\", \"11\", \"2\", \"1\", \"0\", \"3\", \"2\", \"2\", \"2\", \"1\", \"2\", \"15\", \"26\", \"+5\"]}, {\"name\": \"B\\u00e1ng\", \"score\": [\"0\", \"0\", \"1\", \"1\", \"0\", \"3\", \"1\", \"1\", \"4\", \"11\", \"1\", \"3\", \"2\", \"1\", \"0\", \"3\", \"0\", \"2\", \"1\", \"13\", \"22\", \"+4\"]}, {\"name\": \"Nh\\u1eadt\", \"score\": [\"0\", \"0\", \"0\", \"1\", \"0\", \"2\", \"1\", \"2\", \"1\", \"7\", \"1\", \"2\", \"2\", \"1\", \"1\", \"2\", \"3\", \"1\", \"0\", \"12\", \"19\", \"+6\"]}]}\n```"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "messages": [
-            {
-                "role": "system",
-                "content": "You are a helpful assistant that responds in JSON format with the golf score card information. Do not add any annotations there. Remember to close any bracket."
-            },
-            {
-                "role": "user",
-                "content": [
-                    {
-                        "type": "image",
-                        "image": "train_data\\score_card_2\\IMG_9469.jpg"
-                    },
-                    {
-                        "type": "text",
-                        "text": "From this image, return json that has field list is the list of information (hand written text) that each element has field name is the name of player, score is the list of all scores of that player in format like this. The golf score is calculated like this, they hasve 9 front and 9 back scores. Remember that the each score would be from 0-9 but after 9 digits, which mean the 10th element is the sum of the last 9 scores, and the 20th element will be the sum of hole 11 to 19. for example the score will be [0, 1, 2, 1, 3, 2, 0, 0, 1, 11][{\"golf\": [{\"name\": \"\", \"score\": []}, {\"name\": \"\", \"score\": []}]These are examples: ```json\n[\n    {\n        \"golf\": [\n            {\"name\": \"T Anh\", \"score\": [2, 3, 1, 1, 2, 1, 1, 0, 3, 14]},\n            {\"name\": \"Tấn\", \"score\": [1, 0, 1, 1, 0, 1, 2, 2, 2, 10]},\n            {\"name\": \"A Phúc\", \"score\": [1, 0, 2, 1, 1, 2, 2, 2, 2, 13]},\n            {\"name\": \"A Tuấn\", \"score\": [2, 0, 1, 0, 0, 4, 3, 1, 4, 15]}\n        ]\n    }\n]\n```or ```json\n[\n    {\n        \"golf\": [\n            {\"name\": \"C Ngân\", \"score\": [2, 4, 3, 2, 2, 1, 1, 1, 2, 18]},\n            {\"name\": \"C Ngân\", \"score\": [2, 2, 1, 4, 0, 2, 2, 2, 2, 17]}\n        ]\n    }\n]\n```"
-                    }
-                ]
-            },
-            {
-                "role": "assistant",
-                "content": [
-                    {
-                        "type": "text",
-                        "text": "```json\n{\"golf\": [{\"name\": \"Nghĩa\", \"score\": [\"3\", \"1\", \"0\", \"1\", \"2\", \"1\", \"2\", \"0\", \"2\", \"11\"]}, {\"name\": \"Minh\", \"score\": [\"0\", \"2\", \"0\", \"1\", \"2\", \"2\", \"1\", \"1\", \"1\", \"10\"]}, {\"name\": \"Trí\", \"score\": [\"1\", \"1\", \"0\", \"1\", \"5\", \"△\", \"2\", \"0\", \"1\", \"12\"]}, {\"name\": \"Hùng\", \"score\": [\"0\", \"1\", \"1\", \"2\", \"3\", \"0\", \"1\", \"2\", \"1\", \"11\"]}]}\n```"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "messages": [
-            {
-                "role": "system",
-                "content": "You are a helpful assistant that responds in JSON format with the golf score card information. Do not add any annotations there. Remember to close any bracket."
-            },
-            {
-                "role": "user",
-                "content": [
-                    {
-                        "type": "image",
-                        "image": "train_data\\score_card_2\\IMG_9470.JPG"
-                    },
-                    {
-                        "type": "text",
-                        "text": "From this image, return json that has field list is the list of information (hand written text) that each element has field name is the name of player, score is the list of all scores of that player in format like this. The golf score is calculated like this, they hasve 9 front and 9 back scores. Remember that the each score would be from 0-9 but after 9 digits, which mean the 10th element is the sum of the last 9 scores, and the 20th element will be the sum of hole 11 to 19. for example the score will be [0, 1, 2, 1, 3, 2, 0, 0, 1, 11][{\"golf\": [{\"name\": \"\", \"score\": []}, {\"name\": \"\", \"score\": []}]These are examples: ```json\n[\n    {\n        \"golf\": [\n            {\"name\": \"T Anh\", \"score\": [2, 3, 1, 1, 2, 1, 1, 0, 3, 14]},\n            {\"name\": \"Tấn\", \"score\": [1, 0, 1, 1, 0, 1, 2, 2, 2, 10]},\n            {\"name\": \"A Phúc\", \"score\": [1, 0, 2, 1, 1, 2, 2, 2, 2, 13]},\n            {\"name\": \"A Tuấn\", \"score\": [2, 0, 1, 0, 0, 4, 3, 1, 4, 15]}\n        ]\n    }\n]\n```or ```json\n[\n    {\n        \"golf\": [\n            {\"name\": \"C Ngân\", \"score\": [2, 4, 3, 2, 2, 1, 1, 1, 2, 18]},\n            {\"name\": \"C Ngân\", \"score\": [2, 2, 1, 4, 0, 2, 2, 2, 2, 17]}\n        ]\n    }\n]\n```"
-                    }
-                ]
-            },
-            {
-                "role": "assistant",
-                "content": [
-                    {
-                        "type": "text",
-                        "text": "```json\n[\n  {\n    \"golf\": [\n      {\n        \"name\": \"Hải\",\n        \"score\": [\n          0,\n          3,\n          1,\n          1,\n          0,\n          0,\n          2,\n          1,\n          2,\n          10,\n          3,\n          5,\n          2,\n          3,\n          2,\n          1,\n          1,\n          1,\n          5,\n          23\n        ]\n      },\n      {\n        \"name\": \"Quân\",\n        \"score\": [\n          2,\n          1,\n          1,\n          2,\n          2,\n          2,\n          3,\n          2,\n          2,\n          16,\n          2,\n          1,\n          5,\n          0,\n          3,\n          2,\n          2,\n          0,\n          16,\n          23\n        ]\n      },\n      {\n        \"name\": \"Dũng\",\n        \"score\": [\n          4,\n          3,\n          0,\n          2,\n          3,\n          1,\n          1,\n          4,\n          1,\n          19,\n          0,\n          1,\n          2,\n          2,\n          2,\n          1,\n          4,\n          0,\n          10,\n          29\n        ]\n      },\n      {\n        \"name\": \"Nam\",\n        \"score\": [\n          3,\n          1,\n          2,\n          3,\n          2,\n          5,\n          2,\n          1,\n          2,\n          20,\n          2,\n          1,\n          4,\n          2,\n          1,\n          1,\n          4,\n          0,\n          15,\n          36\n        ]\n      }\n    ]\n  }\n]\n```"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "messages": [
-            {
-                "role": "system",
-                "content": "You are a helpful assistant that responds in JSON format with the golf score card information. Do not add any annotations there. Remember to close any bracket."
-            },
-            {
-                "role": "user",
-                "content": [
-                    {
-                        "type": "image",
-                        "image": "train_data\\score_card_2\\IMG_9471.JPG"
-                    },
-                    {
-                        "type": "text",
-                        "text": "From this image, return json that has field list is the list of information (hand written text) that each element has field name is the name of player, score is the list of all scores of that player in format like this. The golf score is calculated like this, they hasve 9 front and 9 back scores. Remember that the each score would be from 0-9 but after 9 digits, which mean the 10th element is the sum of the last 9 scores, and the 20th element will be the sum of hole 11 to 19. for example the score will be [0, 1, 2, 1, 3, 2, 0, 0, 1, 11][{\"golf\": [{\"name\": \"\", \"score\": []}, {\"name\": \"\", \"score\": []}]These are examples: ```json\n[\n    {\n        \"golf\": [\n            {\"name\": \"T Anh\", \"score\": [2, 3, 1, 1, 2, 1, 1, 0, 3, 14]},\n            {\"name\": \"Tấn\", \"score\": [1, 0, 1, 1, 0, 1, 2, 2, 2, 10]},\n            {\"name\": \"A Phúc\", \"score\": [1, 0, 2, 1, 1, 2, 2, 2, 2, 13]},\n            {\"name\": \"A Tuấn\", \"score\": [2, 0, 1, 0, 0, 4, 3, 1, 4, 15]}\n        ]\n    }\n]\n```or ```json\n[\n    {\n        \"golf\": [\n            {\"name\": \"C Ngân\", \"score\": [2, 4, 3, 2, 2, 1, 1, 1, 2, 18]},\n            {\"name\": \"C Ngân\", \"score\": [2, 2, 1, 4, 0, 2, 2, 2, 2, 17]}\n        ]\n    }\n]\n```"
-                    }
-                ]
-            },
-            {
-                "role": "assistant",
-                "content": [
-                    {
-                        "type": "text",
-                        "text": "```json\n[\n  {\n    \"golf\": [\n      {\n        \"name\": \"A.Đồng\",\n        \"score\": [\n          2,\n          1,\n          1,\n          2,\n          0,\n          9,\n          0,\n          1,\n          1,\n          17\n        ]\n      },\n      {\n        \"name\": \"A.Thơ\",\n        \"score\": [\n          1,\n          0,\n          2,\n          0,\n          1,\n          0,\n          1,\n          1,\n          1,\n          7\n        ]\n      },\n      {\n        \"name\": \"Trung\",\n        \"score\": [\n          6,\n          3,\n          2,\n          1,\n          3,\n          3,\n          0,\n          3,\n          1,\n          22\n        ]\n      },\n      {\n        \"name\": \"Phan\",\n        \"score\": [\n          4,\n          3,\n          5,\n          1,\n          1,\n          2,\n          2,\n          1,\n          1,\n          20\n        ]\n      },\n      {\n        \"name\": null,\n        \"score\": [\n          2,\n          9,\n          1,\n          0,\n          0,\n          2,\n          2,\n          0,\n          3,\n          19\n        ]\n      },\n      {\n        \"name\": null,\n        \"score\": [\n          1,\n          1,\n          2,\n          1,\n          0,\n          3,\n          0,\n          1,\n          4,\n          13\n        ]\n      },\n      {\n        \"name\": null,\n        \"score\": [\n          2,\n          9,\n          2,\n          0,\n          0,\n          1,\n          1,\n          0,\n          2,\n          17\n        ]\n      },\n      {\n        \"name\": null,\n        \"score\": [\n          3,\n          2,\n          0,\n          0,\n          0,\n          2,\n          1,\n          0,\n          2,\n          10\n        ]\n      }\n    ]\n  }\n]\n```"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "messages": [
-            {
-                "role": "system",
-                "content": "You are a helpful assistant that responds in JSON format with the golf score card information. Do not add any annotations there. Remember to close any bracket."
-            },
-            {
-                "role": "user",
-                "content": [
-                    {
-                        "type": "image",
-                        "image": "train_data\\score_card_2\\IMG_9474.JPG"
-                    },
-                    {
-                        "type": "text",
-                        "text": "From this image, return json that has field list is the list of information (hand written text) that each element has field name is the name of player, score is the list of all scores of that player in format like this. The golf score is calculated like this, they hasve 9 front and 9 back scores. Remember that the each score would be from 0-9 but after 9 digits, which mean the 10th element is the sum of the last 9 scores, and the 20th element will be the sum of hole 11 to 19. for example the score will be [0, 1, 2, 1, 3, 2, 0, 0, 1, 11][{\"golf\": [{\"name\": \"\", \"score\": []}, {\"name\": \"\", \"score\": []}]These are examples: ```json\n[\n    {\n        \"golf\": [\n            {\"name\": \"T Anh\", \"score\": [2, 3, 1, 1, 2, 1, 1, 0, 3, 14]},\n            {\"name\": \"Tấn\", \"score\": [1, 0, 1, 1, 0, 1, 2, 2, 2, 10]},\n            {\"name\": \"A Phúc\", \"score\": [1, 0, 2, 1, 1, 2, 2, 2, 2, 13]},\n            {\"name\": \"A Tuấn\", \"score\": [2, 0, 1, 0, 0, 4, 3, 1, 4, 15]}\n        ]\n    }\n]\n```or ```json\n[\n    {\n        \"golf\": [\n            {\"name\": \"C Ngân\", \"score\": [2, 4, 3, 2, 2, 1, 1, 1, 2, 18]},\n            {\"name\": \"C Ngân\", \"score\": [2, 2, 1, 4, 0, 2, 2, 2, 2, 17]}\n        ]\n    }\n]\n```"
-                    }
-                ]
-            },
-            {
-                "role": "assistant",
-                "content": [
-                    {
-                        "type": "text",
-                        "text": "```json\n{\"golf\": [{\"name\": \"A. Hãi\", \"score\": [0, 2, 0, 2, 1, 1, 0, 3, 8, 17]}, {\"name\": \"A. Nguyen\", \"score\": [1, 0, 1, 0, 1, 3, 0, 0, 6, 12]}, {\"name\": \"A. Trung\", \"score\": [2, 2, 3, 2, 2, 3, 1, 1, 3, 19]}, {\"name\": \"A. Los\", \"score\": [2, 2, 2, 3, 2, 4, 4, 2, 2, 23]}]}\n```"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "messages": [
-            {
-                "role": "system",
-                "content": "You are a helpful assistant that responds in JSON format with the golf score card information. Do not add any annotations there. Remember to close any bracket."
-            },
-            {
-                "role": "user",
-                "content": [
-                    {
-                        "type": "image",
-                        "image": "train_data\\score_card_2\\IMG_9475.JPG"
-                    },
-                    {
-                        "type": "text",
-                        "text": "From this image, return json that has field list is the list of information (hand written text) that each element has field name is the name of player, score is the list of all scores of that player in format like this. The golf score is calculated like this, they hasve 9 front and 9 back scores. Remember that the each score would be from 0-9 but after 9 digits, which mean the 10th element is the sum of the last 9 scores, and the 20th element will be the sum of hole 11 to 19. for example the score will be [0, 1, 2, 1, 3, 2, 0, 0, 1, 11][{\"golf\": [{\"name\": \"\", \"score\": []}, {\"name\": \"\", \"score\": []}]These are examples: ```json\n[\n    {\n        \"golf\": [\n            {\"name\": \"T Anh\", \"score\": [2, 3, 1, 1, 2, 1, 1, 0, 3, 14]},\n            {\"name\": \"Tấn\", \"score\": [1, 0, 1, 1, 0, 1, 2, 2, 2, 10]},\n            {\"name\": \"A Phúc\", \"score\": [1, 0, 2, 1, 1, 2, 2, 2, 2, 13]},\n            {\"name\": \"A Tuấn\", \"score\": [2, 0, 1, 0, 0, 4, 3, 1, 4, 15]}\n        ]\n    }\n]\n```or ```json\n[\n    {\n        \"golf\": [\n            {\"name\": \"C Ngân\", \"score\": [2, 4, 3, 2, 2, 1, 1, 1, 2, 18]},\n            {\"name\": \"C Ngân\", \"score\": [2, 2, 1, 4, 0, 2, 2, 2, 2, 17]}\n        ]\n    }\n]\n```"
-                    }
-                ]
-            },
-            {
-                "role": "assistant",
-                "content": [
-                    {
-                        "type": "text",
-                        "text": "```json\n{\"golf\": [{\"name\": \"KHA\", \"score\": [\"0\", \"5\", \"1\", \"0\", \"0\", \"1\", \"1\", \"1\", \"2\", \"11\"]}, {\"name\": \"Sơn\", \"score\": [\"0\", \"3\", \"1\", \"1\", \"3\", \"2\", \"2\", \"1\", \"0\", \"13\"]}, {\"name\": \"CƯƠNG\", \"score\": [\"1\", \"2\", \"2\", \"4\", \"0\", \"2\", \"3\", \"0\", \"1\", \"15\"]}, {\"name\": \"Đức\", \"score\": [\"0\", \"0\", \"2\", \"5\", \"1\", \"1\", \"1\", \"2\", \"3\", \"15\"]}]}\n```"
-                    }
+                        "text": "```json\n{\n    \"golf\": [\n        {\"name\": \"Kha\", \"score\": [0, -1, 0, 0, 2, 1, 2, 1, 6, 11, 0, 5, 1, 0, 0, 1, 1, 1, 3, 12]},\n        {\"name\": \"Sơn\", \"score\": [0, 0, 1, 0, 2, 1, 2, 2, 2, 10, 0, 3, 1, -1, 3, 2, 2, 1, 0, 11]},\n        {\"name\": \"Cường\", \"score\": [1, 3, 1, 2, 4, 0, 4, 0, 0, 15, 1, 2, 2, 4, 0, 2, 3, 0, 1, 15]},\n        {\"name\": \"Dũng\", \"score\": [1, 2, 2, 0, 3, 2, 1, 1, 1, 13, 1, 2, 4, 3, 1, 1, 1, 2, 3, 18]}\n    ]\n}\n```"
+                    }                    
                 ]
             }
         ]
