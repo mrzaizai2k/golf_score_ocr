@@ -80,10 +80,11 @@ def detect_bright_spots(
 
     return bright_spot_detected
 
+
 if __name__ == "__main__":
     test_image_path = 'images/loa_1.png'
-    output_thresh_path = 'docs/thresh_test.jpg'
-    output_result_path = 'docs/bright_spots_test.jpg'
+    output_thresh_path = 'images/thresh_test.jpg'
+    output_result_path = 'images/bright_spots_test.jpg'
     result = detect_bright_spots(test_image_path, output_thresh_path, output_result_path)
     print(f"Bright spot detected: {result}")
 
