@@ -2,7 +2,7 @@
 images/
 .env
 *.pyc
-*.jpg
-*.JPG
 finetune-Qwen2-VL/
 models/
+train_data/score_card_2/
+train_data/score_card/

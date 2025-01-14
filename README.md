@@ -25,6 +25,8 @@ A Kiên: 4,1,3,4,2,1...
 A Cường: 2,0,2,2,1...
 ```
 
+The source dataset can be found [at this repo](https://github.com/Lelekhoa1812/Golf-Scorecard-Scanner/tree/main/dataset/images/train)
+
 ## Features
 
 - Automated extraction of player names and scores from score card images
