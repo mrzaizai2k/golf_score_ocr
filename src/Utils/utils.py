@@ -1,3 +1,4 @@
+
 import sys
 sys.path.append("")
 
@@ -21,32 +22,18 @@ from dotenv import load_dotenv
 load_dotenv()
 
 
-# SSL Verification Context Manager
-@contextlib.contextmanager
-def no_ssl_verification():
-    old_merge_environment_settings = requests.Session.merge_environment_settings
-    opened_adapters = set()
-
-    def merge_environment_settings(self, url, proxies, stream, verify, cert):
-        opened_adapters.add(self.get_adapter(url))
-        settings = old_merge_environment_settings(self, url, proxies, stream, verify, cert)
-        settings['verify'] = False
-        return settings
-
-    requests.Session.merge_environment_settings = merge_environment_settings
-
-    try:
-        with warnings.catch_warnings():
-            warnings.simplefilter('ignore', InsecureRequestWarning)
-            yield
-    finally:
-        requests.Session.merge_environment_settings = old_merge_environment_settings
-
-        for adapter in opened_adapters:
-            try:
-                adapter.close()
-            except:
-                pass
+def valid_base64_image(data_url: str) -> str:
+    """
+    Extracts the base64 part of a data URL string that begins with 'data:image'.
+    
+    :param data_url: The data URL string containing the image data.
+    :return: The base64 encoded image string.
+    """
+    if data_url.startswith("data:image"):
+        # Find the comma and return the substring after it
+        return data_url.split(",")[1]
+    else:
+        return data_url
 
 
 
@@ -222,3 +209,31 @@ def rotate_image(img: Image.Image) -> Image.Image:
     # Convert the rotated image back to PIL format
     rotated_pil = Image.fromarray(cv2.cvtColor(rotated, cv2.COLOR_BGR2RGB))
     return rotated_pil, most_common_angle
+
+
+# SSL Verification Context Manager
+@contextlib.contextmanager
+def no_ssl_verification():
+    old_merge_environment_settings = requests.Session.merge_environment_settings
+    opened_adapters = set()
+
+    def merge_environment_settings(self, url, proxies, stream, verify, cert):
+        opened_adapters.add(self.get_adapter(url))
+        settings = old_merge_environment_settings(self, url, proxies, stream, verify, cert)
+        settings['verify'] = False
+        return settings
+
+    requests.Session.merge_environment_settings = merge_environment_settings
+
+    try:
+        with warnings.catch_warnings():
+            warnings.simplefilter('ignore', InsecureRequestWarning)
+            yield
+    finally:
+        requests.Session.merge_environment_settings = old_merge_environment_settings
+
+        for adapter in opened_adapters:
+            try:
+                adapter.close()
+            except:
+                pass

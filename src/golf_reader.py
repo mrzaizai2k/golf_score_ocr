@@ -83,6 +83,6 @@ if __name__ == "__main__":
     import json
     config_path = "config/config.yaml"
     golf_reader = GolfReader(config_path)
-    result = golf_reader.process_image("images/2.png")
+    result = golf_reader.process_image("LLaMA-Factory/data/train_data/score_card_2/IMG_9424.jpg")
     print('result', result)
     print(json.dumps(result, indent=4,  ensure_ascii=False))

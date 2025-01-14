@@ -4,3 +4,5 @@ images/
 *.pyc
 *.jpg
 *.JPG
+finetune-Qwen2-VL/
+models/

@@ -1,3 +1,4 @@
+
 model_name: "gemini-1.5-flash"
 generation_config:
   temperature: 1
@@ -5,8 +6,18 @@ generation_config:
   top_k: 64
   max_output_tokens: 8192
   response_mime_type: "application/json"
+  
 system_instruction_path:  config/system_instruction.txt
 question_path: config/question.txt
 
 ocr:
   resize_size: 1080
+
+qwen2:
+  model_name: models/qwen2/qwen2_vl_lora_sft_2b
+  min_pixels: 200_704 # 256*28*28
+  max_pixels: 1_003_520 # 1280*28*28
+  max_new_tokens: 512
+  temperature: 0.7
+  top_p: 0.8
+  top_k: 20
