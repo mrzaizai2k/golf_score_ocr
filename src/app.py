@@ -5,11 +5,13 @@ import streamlit as st
 import os
 import json
 from PIL import Image
-from golf_reader import GolfReader
+# from golf_reader_old import GolfReader
+from src.gemini_reader import GeminiReader
+from src.qwen2_reader import Qwen2Reader
 
 # Initialize GolfReader
 config_path = "config/config.yaml"  # Adjust this path as needed
-golf_reader = GolfReader(config_path)
+golf_reader = GeminiReader(config_path)
 
 st.title("Golf Score Reader")
 
